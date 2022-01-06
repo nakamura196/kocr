@@ -100,16 +100,13 @@ index = 0
 
 c = 0
 
+print("Classifying words ...")
 for canvas in tqdm(canvases):
     # print(canvas)
 
     obj = canvases[canvas]
 
     r_size = obj["width"] # 1024 * 3
-
-    
-
-    
 
     # url = obj["image"] + "/full/full/0/default.jpg"
     # tmp_path = "output/{}/classification/{}.jpg".format(id, str(c + 1).zfill(4))
