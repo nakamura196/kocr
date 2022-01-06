@@ -1,0 +1,3451 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "aaa",
+    "@type": "cr:Curation",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/manifest.json",
+            "@type": "sc:Range",
+            "members": [
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=538,249,39,74",
+                    "@type": "sc:Canvas",
+                    "label": "[1]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=538,249,39,74#1",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=538,249,39,74",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9339107871<br/>平 100.0  - 草 0.0, 年 0.0, 于 0.0, 手 0.0, 平 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "平"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=532,74,61,48",
+                    "@type": "sc:Canvas",
+                    "label": "[2]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=532,74,61,48#2",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=532,74,61,48",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9256091118<br/>隅 58.35  - 満 0.0, 勝 0.04, 綱 0.06, 渋 41.53, 隅 58.35",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "隅"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=534,130,50,54",
+                    "@type": "sc:Canvas",
+                    "label": "[3]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=534,130,50,54#3",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=534,130,50,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9210922122<br/>各 100.0  - 兵 0.0, 冬 0.0, 告 0.0, 谷 0.0, 各 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "各"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,87,52,61",
+                    "@type": "sc:Canvas",
+                    "label": "[4]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,87,52,61#4",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,87,52,61",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.909419775<br/>定 100.0  - 宅 0.0, 寛 0.0, 宣 0.0, 宮 0.0, 定 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "定"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,153,36,51",
+                    "@type": "sc:Canvas",
+                    "label": "[5]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,153,36,51#5",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,153,36,51",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8887945414<br/>円 50.66  - 憲 0.0, 闍 0.02, 固 8.22, 国 41.09, 円 50.66",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "円"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=367,157,52,40",
+                    "@type": "sc:Canvas",
+                    "label": "[6]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=367,157,52,40#6",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=367,157,52,40",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8829138875<br/>相 98.25  - 抽 0.08, 将 0.11, 松 0.5, 様 0.71, 相 98.25",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "相"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=536,192,41,53",
+                    "@type": "sc:Canvas",
+                    "label": "[7]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=536,192,41,53#7",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=536,192,41,53",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8798335791<br/>新 100.0  - 義 0.0, 対 0.0, 頼 0.0, 料 0.0, 新 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "新"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=460,205,34,55",
+                    "@type": "sc:Canvas",
+                    "label": "[8]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=460,205,34,55#8",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=460,205,34,55",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8699380159<br/>当 100.0  - 守 0.0, 尚 0.0, 畠 0.0, 而 0.0, 当 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "当"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=382,95,28,54",
+                    "@type": "sc:Canvas",
+                    "label": "[9]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=382,95,28,54#9",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=382,95,28,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8543483019<br/>有 100.0  - 存 0.0, 右 0.0, 不 0.0, 相 0.0, 有 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "有"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=366,192,58,63",
+                    "@type": "sc:Canvas",
+                    "label": "[10]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=366,192,58,63#10",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=366,192,58,63",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8474946618<br/>復 73.0  - 違 0.02, 綾 0.67, 後 12.07, 狭 14.24, 復 73.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "復"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,101,48,66",
+                    "@type": "sc:Canvas",
+                    "label": "[11]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,101,48,66#11",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,101,48,66",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8373666406<br/>天 100.0  - 元 0.0, 其 0.0, て 0.0, 矢 0.0, 天 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "天"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=290,170,57,63",
+                    "@type": "sc:Canvas",
+                    "label": "[12]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=290,170,57,63#12",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=290,170,57,63",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8332167864<br/>気 99.85  - 用 0.0, て 0.0, 亂 0.02, 風 0.12, 気 99.85",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "気"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=529,365,64,58",
+                    "@type": "sc:Canvas",
+                    "label": "[13]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=529,365,64,58#13",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=529,365,64,58",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8270642161<br/>入 100.0  - 勘 0.0, 雅 0.0, 惜 0.0, の 0.0, 入 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "入"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=541,330,34,30",
+                    "@type": "sc:Canvas",
+                    "label": "[14]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=541,330,34,30#14",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=541,330,34,30",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8196006417<br/>二 100.0  - 三 0.0, 弁 0.0, 恐 0.0, ニ 0.0, 二 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "二"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=177,435,66,52",
+                    "@type": "sc:Canvas",
+                    "label": "[15]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=177,435,66,52#15",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=177,435,66,52",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8057751656<br/>一 50.54  - 入 2.86, 門 3.44, へ 6.06, の 7.61, 一 50.54",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "一"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=454,301,44,73",
+                    "@type": "sc:Canvas",
+                    "label": "[16]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=454,301,44,73#16",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=454,301,44,73",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8043471575<br/>行 100.0  - 謹 0.0, 後 0.0, 許 0.0, 給 0.0, 行 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "行"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,281,38,51",
+                    "@type": "sc:Canvas",
+                    "label": "[17]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,281,38,51#17",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=288,281,38,51",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7786642909<br/>此 100.0  - 上 0.0, 歟 0.0, 法 0.0, 日 0.0, 此 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "此"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,267,47,38",
+                    "@type": "sc:Canvas",
+                    "label": "[18]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,267,47,38#18",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=452,267,47,38",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7754390836<br/>知 100.0  - 久 0.0, 朝 0.0, 郎 0.0, 弘 0.0, 知 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "知"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=174,136,60,56",
+                    "@type": "sc:Canvas",
+                    "label": "[19]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=174,136,60,56#19",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=174,136,60,56",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7477705479<br/>九 95.51  - 左 0.0, 庄 0.0, 座 0.0, 元 4.49, 九 95.51",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "九"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=383,263,24,38",
+                    "@type": "sc:Canvas",
+                    "label": "[20]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=383,263,24,38#20",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=383,263,24,38",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7284042835<br/>者 100.0  - 之 0.0, 見 0.0, 元 0.0, は 0.0, 者 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "者"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=270,425,65,54",
+                    "@type": "sc:Canvas",
+                    "label": "[21]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=270,425,65,54#21",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=270,425,65,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7225520611<br/>様 99.86  - 狼 0.01, 帖 0.01, 恠 0.02, 限 0.02, 様 99.86",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "様"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=283,335,51,55",
+                    "@type": "sc:Canvas",
+                    "label": "[22]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=283,335,51,55#22",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=283,335,51,55",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7114678621<br/>悉 79.74  - 真 0.02, 志 0.04, 甚 0.62, 基 19.54, 悉 79.74",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "悉"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=292,238,29,40",
+                    "@type": "sc:Canvas",
+                    "label": "[23]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=292,238,29,40#23",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=292,238,29,40",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7098945379<br/>如 100.0  - を 0.0, 候 0.0, 書 0.0, 女 0.0, 如 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "如"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,370,47,36",
+                    "@type": "sc:Canvas",
+                    "label": "[24]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,370,47,36#24",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=456,370,47,36",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.631280005<br/>地 99.67  - 把 0.0, 由 0.0, 馳 0.02, 他 0.31, 地 99.67",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "地"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=527,407,74,67",
+                    "@type": "sc:Canvas",
+                    "label": "[25]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=527,407,74,67#25",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=527,407,74,67",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6239203811<br/>道 100.0  - 遠 0.0, 通 0.0, 後 0.0, 源 0.0, 道 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "道"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=295,386,20,32",
+                    "@type": "sc:Canvas",
+                    "label": "[26]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=295,386,20,32#26",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=295,386,20,32",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5852107406<br/>之 99.99  - に 0.0, 云 0.0, 了 0.0, 々 0.0, 之 99.99",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "之"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=178,164,54,46",
+                    "@type": "sc:Canvas",
+                    "label": "[27]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=178,164,54,46#27",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=178,164,54,46",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5791893005<br/>植 67.6  - 帖 2.31, 様 2.46, 位 3.42, 検 6.45, 植 67.6",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "植"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,354,49,68",
+                    "@type": "sc:Canvas",
+                    "label": "[28]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,354,49,68#28",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,354,49,68",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5604143739<br/>啓 76.25  - 兵 0.96, 左 1.21, 摩 1.52, 懸 15.64, 啓 76.25",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "啓"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=194,206,16,30",
+                    "@type": "sc:Canvas",
+                    "label": "[29]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=194,206,16,30#29",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=194,206,16,30",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4875839055<br/>々 55.13  - し 0.07, 言 0.83, 候 3.67, 之 40.11, 々 55.13",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "々"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=443,440,54,40",
+                    "@type": "sc:Canvas",
+                    "label": "[30]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=443,440,54,40#30",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=443,440,54,40",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4820740521<br/>可 100.0  - 所 0.0, 四 0.0, 卿 0.0, 一 0.0, 可 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "可"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=462,404,26,34",
+                    "@type": "sc:Canvas",
+                    "label": "[31]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=462,404,26,34#31",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=462,404,26,34",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4761076868<br/>ゑ 66.97  - 六 1.54, 恐 5.95, 今 9.69, 公 12.01, ゑ 66.97",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "ゑ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=176,277,46,56",
+                    "@type": "sc:Canvas",
+                    "label": "[32]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=176,277,46,56#32",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=176,277,46,56",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.455396384<br/>九 100.0  - 大 0.0, 歟 0.0, 見 0.0, 左 0.0, 九 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "九"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=162,233,69,66",
+                    "@type": "sc:Canvas",
+                    "label": "[33]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=162,233,69,66#33",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=162,233,69,66",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4465253055<br/>吉 83.8  - 赤 0.07, 幸 0.6, 二 0.85, 弁 14.46, 吉 83.8",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "吉"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=182,331,40,57",
+                    "@type": "sc:Canvas",
+                    "label": "[34]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=182,331,40,57#34",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=182,331,40,57",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.382562995<br/>我 79.01  - 女 2.01, 無 2.02, 義 3.39, 或 6.93, 我 79.01",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "我"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=167,248,58,33",
+                    "@type": "sc:Canvas",
+                    "label": "[35]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=167,248,58,33#35",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=167,248,58,33",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3609860241<br/>ふ 55.83  - 不 0.33, 可 0.43, 今 0.76, 一 41.48, ふ 55.83",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "ふ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=185,291,32,35",
+                    "@type": "sc:Canvas",
+                    "label": "[36]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=185,291,32,35#36",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=185,291,32,35",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.352996558<br/>九 100.0  - 左 0.0, の 0.0, て 0.0, 元 0.0, 九 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "九"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=183,378,34,53",
+                    "@type": "sc:Canvas",
+                    "label": "[37]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=183,378,34,53#37",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=183,378,34,53",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3504230976<br/>々 29.39  - 具 2.66, へ 2.88, 令 24.49, 会 25.26, 々 29.39",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "々"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=173,232,48,33",
+                    "@type": "sc:Canvas",
+                    "label": "[38]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=173,232,48,33#38",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=173,232,48,33",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3293138742<br/>中 93.87  - 事 0.06, 日 0.33, 廿 1.02, 十 4.62, 中 93.87",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "中"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,256,40,39",
+                    "@type": "sc:Canvas",
+                    "label": "[39]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,256,40,39#39",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=179,256,40,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3178499937<br/>百 100.0  - 日 0.0, 所 0.0, 自 0.0, 有 0.0, 百 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "百"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=190,322,30,37",
+                    "@type": "sc:Canvas",
+                    "label": "[40]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=190,322,30,37#40",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=190,322,30,37",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.294239074<br/>哉 78.88  - 成 0.58, 等 0.59, 申 0.88, 御 17.57, 哉 78.88",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "哉"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=286,282,42,103",
+                    "@type": "sc:Canvas",
+                    "label": "[41]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=286,282,42,103#41",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=286,282,42,103",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2661480904<br/>十 45.83  - 少 1.51, 謹 3.99, 斗 5.31, 廿 35.12, 十 45.83",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "十"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=186,206,30,37",
+                    "@type": "sc:Canvas",
+                    "label": "[42]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=186,206,30,37#42",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p1#xywh=186,206,30,37",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2534460723<br/>不 70.86  - え 1.78, ら 4.18, 々 6.19, 事 13.69, 不 70.86",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "不"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=546,82,60,51",
+                    "@type": "sc:Canvas",
+                    "label": "[43]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=546,82,60,51#43",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=546,82,60,51",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8985285163<br/>渋 100.0  - 酒 0.0, 綱 0.0, 徳 0.0, 海 0.0, 渋 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "渋"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=549,193,34,78",
+                    "@type": "sc:Canvas",
+                    "label": "[44]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=549,193,34,78#44",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=549,193,34,78",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8805003166<br/>平 99.9  - 午 0.0, 乎 0.0, 于 0.0, 手 0.1, 平 99.9",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "平"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=469,306,30,39",
+                    "@type": "sc:Canvas",
+                    "label": "[45]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=469,306,30,39#45",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=469,306,30,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8705452085<br/>不 100.0  - 木 0.0, 大 0.0, 下 0.0, 右 0.0, 不 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "不"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=462,158,44,43",
+                    "@type": "sc:Canvas",
+                    "label": "[46]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=462,158,44,43#46",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=462,158,44,43",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8674387932<br/>知 100.0  - 細 0.0, 不 0.0, 郎 0.0, 和 0.0, 知 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "知"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=308,285,46,33",
+                    "@type": "sc:Canvas",
+                    "label": "[47]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=308,285,46,33#47",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=308,285,46,33",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8641647696<br/>時 61.48  - 姓 0.47, 馳 0.54, 督 13.56, 尉 22.29, 時 61.48",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "時"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,443,43,39",
+                    "@type": "sc:Canvas",
+                    "label": "[48]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,443,43,39#48",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,443,43,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8609380722<br/>勝 100.0  - 膳 0.0, 腰 0.0, 晴 0.0, 藤 0.0, 勝 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "勝"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,244,49,37",
+                    "@type": "sc:Canvas",
+                    "label": "[49]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,244,49,37#49",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,244,49,37",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8596199751<br/>如 100.0  - 忠 0.0, 也 0.0, 女 0.0, 状 0.0, 如 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "如"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=537,135,63,49",
+                    "@type": "sc:Canvas",
+                    "label": "[50]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=537,135,63,49#50",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=537,135,63,49",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8588556647<br/>尺 72.78  - 上 0.18, 見 0.37, 忌 7.64, 大 18.86, 尺 72.78",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "尺"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,86,44,69",
+                    "@type": "sc:Canvas",
+                    "label": "[51]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,86,44,69#51",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,86,44,69",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8520969152<br/>当 100.0  - 宿 0.0, 堂 0.0, 旨 0.0, 常 0.0, 当 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "当"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=393,96,28,54",
+                    "@type": "sc:Canvas",
+                    "label": "[52]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=393,96,28,54#52",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=393,96,28,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8433042169<br/>者 100.0  - 左 0.0, 老 0.0, 先 0.0, は 0.0, 者 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "者"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,266,51,39",
+                    "@type": "sc:Canvas",
+                    "label": "[53]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,266,51,39#53",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=464,266,51,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8239572048<br/>地 100.0  - 北 0.0, 越 0.0, 炊 0.0, 馳 0.0, 地 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "地"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=201,242,54,62",
+                    "@type": "sc:Canvas",
+                    "label": "[54]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=201,242,54,62#54",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=201,242,54,62",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8210641146<br/>者 94.72  - 赤 0.0, 吉 0.0, 着 0.0, 有 5.28, 者 94.72",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "者"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=547,351,35,43",
+                    "@type": "sc:Canvas",
+                    "label": "[55]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=547,351,35,43#55",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=547,351,35,43",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7988919616<br/>郎 99.93  - 時 0.0, 紙 0.0, 御 0.02, 尉 0.04, 郎 99.93",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "郎"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=315,178,54,40",
+                    "@type": "sc:Canvas",
+                    "label": "[56]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=315,178,54,40#56",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=315,178,54,40",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7937601805<br/>作 90.99  - 仰 0.03, 維 0.03, 頭 0.11, 候 8.81, 作 90.99",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "作"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=214,301,42,54",
+                    "@type": "sc:Canvas",
+                    "label": "[57]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=214,301,42,54#57",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=214,301,42,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7787046432<br/>盃 50.79  - 盤 0.04, 懸 0.85, 啓 5.67, 熊 42.63, 盃 50.79",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "盃"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=534,316,48,41",
+                    "@type": "sc:Canvas",
+                    "label": "[58]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=534,316,48,41#58",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=534,316,48,41",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7646242976<br/>五 99.23  - 土 0.02, し 0.08, 王 0.15, 立 0.48, 五 99.23",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "五"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,132,48,44",
+                    "@type": "sc:Canvas",
+                    "label": "[59]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,132,48,44#59",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,132,48,44",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7575242519<br/>先 85.22  - 危 0.0, 左 0.0, 元 0.42, 光 14.35, 先 85.22",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "先"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=543,283,41,25",
+                    "@type": "sc:Canvas",
+                    "label": "[60]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=543,283,41,25#60",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=543,283,41,25",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7565890551<br/>こ 96.83  - 六 0.0, 三 0.0, 二 0.66, ニ 2.5, こ 96.83",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "こ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=458,202,49,66",
+                    "@type": "sc:Canvas",
+                    "label": "[61]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=458,202,49,66#61",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=458,202,49,66",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7555671334<br/>行 100.0  - 謹 0.0, 給 0.0, 待 0.0, 許 0.0, 行 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "行"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=211,436,63,47",
+                    "@type": "sc:Canvas",
+                    "label": "[62]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=211,436,63,47#62",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=211,436,63,47",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7522188425<br/>へ 94.77  - 間 0.47, 問 0.72, 可 1.33, て 2.07, へ 94.77",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "へ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,345,46,59",
+                    "@type": "sc:Canvas",
+                    "label": "[63]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,345,46,59#63",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,345,46,59",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.745393455<br/>可 100.0  - 雅 0.0, 思 0.0, 対 0.0, 惜 0.0, 可 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "可"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,351,48,54",
+                    "@type": "sc:Canvas",
+                    "label": "[64]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,351,48,54#64",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,351,48,54",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.740190208<br/>郎 62.36  - 度 4.42, 廊 6.19, 房 8.22, 戸 14.3, 郎 62.36",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "郎"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=531,393,48,36",
+                    "@type": "sc:Canvas",
+                    "label": "[65]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=531,393,48,36#65",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=531,393,48,36",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6851119995<br/>方 100.0  - 書 0.0, 可 0.0, 言 0.0, 六 0.0, 方 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "方"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=307,429,55,38",
+                    "@type": "sc:Canvas",
+                    "label": "[66]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=307,429,55,38#66",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=307,429,55,38",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6839985251<br/>状 75.13  - 将 0.32, の 0.48, ハ 6.24, 一 17.22, 状 75.13",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "状"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=449,409,49,59",
+                    "@type": "sc:Canvas",
+                    "label": "[67]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=449,409,49,59#67",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=449,409,49,59",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6728590727<br/>有 85.31  - 朝 0.92, 布 1.04, 願 3.42, 相 7.45, 有 85.31",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "有"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,329,51,71",
+                    "@type": "sc:Canvas",
+                    "label": "[68]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,329,51,71#68",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,329,51,71",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6680024266<br/>台 16.38  - た 5.78, 常 6.3, 会 7.81, 堂 10.07, 台 16.38",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "台"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=322,102,27,56",
+                    "@type": "sc:Canvas",
+                    "label": "[69]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=322,102,27,56#69",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=322,102,27,56",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5887300372<br/>天 100.0  - テ 0.0, 其 0.0, 去 0.0, て 0.0, 天 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "天"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=314,198,39,43",
+                    "@type": "sc:Canvas",
+                    "label": "[70]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=314,198,39,43#70",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=314,198,39,43",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5369664431<br/>未 99.7  - 衛 0.0, 東 0.0, 楽 0.05, 末 0.24, 未 99.7",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "未"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,171,43,34",
+                    "@type": "sc:Canvas",
+                    "label": "[71]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,171,43,34#71",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=212,171,43,34",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5280637145<br/>油 22.32  - 付 5.62, 尉 10.49, 供 10.69, 此 15.84, 油 22.32",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "油"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=302,406,54,26",
+                    "@type": "sc:Canvas",
+                    "label": "[72]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=302,406,54,26#72",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=302,406,54,26",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5132824183<br/>以 100.0  - 八 0.0, 明 0.0, 心 0.0, い 0.0, 以 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "以"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=456,452,37,25",
+                    "@type": "sc:Canvas",
+                    "label": "[73]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=456,452,37,25#73",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=456,452,37,25",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4630824924<br/>衛 66.01  - 候 2.25, 御 2.54, 廿 9.42, 日 19.13, 衛 66.01",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "衛"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=213,202,39,39",
+                    "@type": "sc:Canvas",
+                    "label": "[74]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=213,202,39,39#74",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=213,202,39,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4379016161<br/>年 100.0  - 承 0.0, も 0.0, 手 0.0, ね 0.0, 年 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "年"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=466,355,26,47",
+                    "@type": "sc:Canvas",
+                    "label": "[75]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=466,355,26,47#75",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=466,355,26,47",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4369937181<br/>可 96.75  - 十 0.09, 所 0.26, に 0.78, 丁 1.96, 可 96.75",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "可"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=215,389,32,44",
+                    "@type": "sc:Canvas",
+                    "label": "[76]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=215,389,32,44#76",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=215,389,32,44",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4356450737<br/>衛 17.95  - 進 5.2, 亞 5.59, 臣 6.97, 者 12.91, 衛 17.95",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "衛"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=310,321,40,52",
+                    "@type": "sc:Canvas",
+                    "label": "[77]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=310,321,40,52#77",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=310,321,40,52",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3582134545<br/>着 92.07  - 基 0.07, 愚 0.25, 忍 1.86, 悉 5.71, 着 92.07",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "着"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=218,406,23,28",
+                    "@type": "sc:Canvas",
+                    "label": "[78]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=218,406,23,28#78",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=218,406,23,28",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3442085981<br/>進 95.8  - 未 0.33, 衛 0.45, 候 1.29, と 1.47, 進 95.8",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "進"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,413,34,31",
+                    "@type": "sc:Canvas",
+                    "label": "[79]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,413,34,31#79",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=541,413,34,31",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3414224982<br/>参 57.22  - 等 1.71, 不 2.82, 来 8.06, 候 22.69, 参 57.22",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "参"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=323,158,13,21",
+                    "@type": "sc:Canvas",
+                    "label": "[80]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=323,158,13,21#80",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=323,158,13,21",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3329593539<br/>候 97.01  - ニ 0.26, 之 0.65, 々 0.73, 上 0.99, 候 97.01",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "候"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=459,154,50,97",
+                    "@type": "sc:Canvas",
+                    "label": "[81]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=459,154,50,97#81",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=459,154,50,97",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.323302865<br/>節 22.27  - 声 3.81, 秀 7.81, 芸 10.1, 新 13.05, 節 22.27",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "節"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=210,249,44,102",
+                    "@type": "sc:Canvas",
+                    "label": "[82]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=210,249,44,102#82",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=210,249,44,102",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3187721074<br/>月 63.21  - 有 3.01, 兼 3.57, 五 5.2, も 23.96, 月 63.21",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "月"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,356,45,82",
+                    "@type": "sc:Canvas",
+                    "label": "[83]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,356,45,82#83",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,356,45,82",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3135572374<br/>集 98.52  - 梨 0.05, 葉 0.07, 薬 0.24, 楽 1.03, 集 98.52",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "集"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=467,406,14,20",
+                    "@type": "sc:Canvas",
+                    "label": "[84]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=467,406,14,20#84",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=467,406,14,20",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3099281192<br/>か 62.63  - 付 0.32, る 0.37, の 0.42, 日 36.03, か 62.63",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "か"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,356,48,71",
+                    "@type": "sc:Canvas",
+                    "label": "[85]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,356,48,71#85",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=306,356,48,71",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2865889966<br/>之 93.36  - 郎 0.27, 文 0.99, ら 1.19, 々 3.11, 之 93.36",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "之"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,347,49,19",
+                    "@type": "sc:Canvas",
+                    "label": "[86]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,347,49,19#86",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=454,347,49,19",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2619638145<br/>可 100.0  - 雅 0.0, 思 0.0, 対 0.0, 惜 0.0, 可 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "可"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,394,46,85",
+                    "@type": "sc:Canvas",
+                    "label": "[87]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,394,46,85#87",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p2#xywh=535,394,46,85",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2583209574<br/>高 40.94  - 慮 3.11, 宗 7.26, 爰 14.55, 京 25.08, 高 40.94",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "高"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=475,143,53,76",
+                    "@type": "sc:Canvas",
+                    "label": "[88]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=475,143,53,76#88",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=475,143,53,76",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9228260517<br/>家 100.0  - 敬 0.0, 散 0.0, 蒙 0.0, 前 0.0, 家 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "家"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=476,70,47,68",
+                    "@type": "sc:Canvas",
+                    "label": "[89]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=476,70,47,68#89",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=476,70,47,68",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9135830998<br/>後 92.99  - る 0.35, に 0.35, 何 2.6, は 3.68, 後 92.99",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "後"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=398,348,44,50",
+                    "@type": "sc:Canvas",
+                    "label": "[90]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=398,348,44,50#90",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=398,348,44,50",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9087019563<br/>相 100.0  - 将 0.0, お 0.0, 右 0.0, 於 0.0, 相 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "相"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=396,401,60,61",
+                    "@type": "sc:Canvas",
+                    "label": "[91]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=396,401,60,61#91",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=396,401,60,61",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9039679766<br/>違 53.88  - 渡 2.28, 濃 3.36, 清 12.25, 徒 18.88, 違 53.88",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "違"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,181,59,51",
+                    "@type": "sc:Canvas",
+                    "label": "[92]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,181,59,51#92",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,181,59,51",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9026713371<br/>弥 99.9  - 孫 0.0, 珍 0.0, 殊 0.0, 弾 0.09, 弥 99.9",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "弥"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=560,51,66,59",
+                    "@type": "sc:Canvas",
+                    "label": "[93]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=560,51,66,59#93",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=560,51,66,59",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.900760293<br/>衛 89.91  - 酒 0.65, 勝 0.8, 隅 1.6, 満 5.91, 衛 89.91",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "衛"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=400,301,34,42",
+                    "@type": "sc:Canvas",
+                    "label": "[94]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=400,301,34,42#94",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=400,301,34,42",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.9006290436<br/>有 76.36  - は 0.0, 及 0.0, 返 0.7, 九 22.93, 有 76.36",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "有"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=305,74,49,67",
+                    "@type": "sc:Canvas",
+                    "label": "[95]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=305,74,49,67#95",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=305,74,49,67",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8992615938<br/>者 100.0  - 老 0.0, は 0.0, 先 0.0, 着 0.0, 者 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "者"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,348,69,57",
+                    "@type": "sc:Canvas",
+                    "label": "[96]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,348,69,57#96",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,348,69,57",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8918290138<br/>入 100.0  - 門 0.0, 人 0.0, 代 0.0, の 0.0, 入 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "入"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,223,47,93",
+                    "@type": "sc:Canvas",
+                    "label": "[97]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,223,47,93#97",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,223,47,93",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8897157907<br/>年 80.13  - 平 0.85, 畢 0.92, 件 1.74, 井 16.05, 年 80.13",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "年"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,113,58,61",
+                    "@type": "sc:Canvas",
+                    "label": "[98]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,113,58,61#98",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,113,58,61",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8812211752<br/>太 89.81  - 右 0.01, 入 0.01, 吉 0.11, 左 10.04, 太 89.81",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "太"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=571,285,43,64",
+                    "@type": "sc:Canvas",
+                    "label": "[99]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=571,285,43,64#99",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=571,285,43,64",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8777171969<br/>中 100.0  - や 0.0, ゆ 0.0, 件 0.0, 廿 0.0, 中 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "中"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=565,238,45,37",
+                    "@type": "sc:Canvas",
+                    "label": "[100]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=565,238,45,37#100",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=565,238,45,37",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8589781523<br/>三 100.0  - 言 0.0, 之 0.0, 二 0.0, し 0.0, 三 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "三"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=397,158,49,50",
+                    "@type": "sc:Canvas",
+                    "label": "[101]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=397,158,49,50#101",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=397,158,49,50",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8504142165<br/>地 75.05  - 能 0.04, 油 0.16, 他 0.45, 馳 24.13, 地 75.05",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "地"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=121,412,68,59",
+                    "@type": "sc:Canvas",
+                    "label": "[102]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=121,412,68,59#102",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=121,412,68,59",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8444431424<br/>へ 99.68  - 人 0.01, 一 0.05, 可 0.09, 入 0.13, へ 99.68",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "へ"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,153,63,66",
+                    "@type": "sc:Canvas",
+                    "label": "[103]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,153,63,66#103",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,153,63,66",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.843680203<br/>亂 60.59  - 殿 0.0, 気 0.0, 風 0.76, て 38.65, 亂 60.59",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "亂"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=118,297,62,83",
+                    "@type": "sc:Canvas",
+                    "label": "[104]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=118,297,62,83#104",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=118,297,62,83",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8386906385<br/>人 59.82  - 言 1.87, へ 8.73, た 11.08, 入 12.68, 人 59.82",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "人"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=485,377,35,61",
+                    "@type": "sc:Canvas",
+                    "label": "[105]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=485,377,35,61#105",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=485,377,35,61",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8353475332<br/>当 100.0  - る 0.0, 常 0.0, 忠 0.0, 尚 0.0, 当 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "当"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=384,208,63,62",
+                    "@type": "sc:Canvas",
+                    "label": "[106]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=384,208,63,62#106",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=384,208,63,62",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8341332674<br/>不 100.0  - 雅 0.0, 思 0.0, 右 0.0, 下 0.0, 不 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "不"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,317,45,50",
+                    "@type": "sc:Canvas",
+                    "label": "[107]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,317,45,50#107",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=479,317,45,50",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8323876262<br/>の 49.63  - 百 2.22, 日 2.32, 止 19.25, 仍 23.81, の 49.63",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "の"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=127,377,30,35",
+                    "@type": "sc:Canvas",
+                    "label": "[108]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=127,377,30,35#108",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=127,377,30,35",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8258829117<br/>進 90.23  - 遣 0.09, 上 0.23, と 1.87, 追 7.53, 進 90.23",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "進"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=231,71,32,75",
+                    "@type": "sc:Canvas",
+                    "label": "[109]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=231,71,32,75#109",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=231,71,32,75",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.824740231<br/>予 48.14  - 云 3.15, 無 4.25, 被 11.55, 郎 32.67, 予 48.14",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "予"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=390,75,51,71",
+                    "@type": "sc:Canvas",
+                    "label": "[110]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=390,75,51,71#110",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=390,75,51,71",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8149258494<br/>房 44.86  - へ 0.86, 石 11.84, 不 15.59, 知 21.52, 房 44.86",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "房"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=481,437,51,57",
+                    "@type": "sc:Canvas",
+                    "label": "[111]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=481,437,51,57#111",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=481,437,51,57",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.8112003803<br/>示 31.61  - 参 7.53, 朝 9.42, 不 13.44, 来 13.76, 示 31.61",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "示"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=376,261,75,42",
+                    "@type": "sc:Canvas",
+                    "label": "[112]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=376,261,75,42#112",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=376,261,75,42",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7794857025<br/>可 67.77  - 尉 0.0, 甘 0.0, 一 0.01, 四 32.21, 可 67.77",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "可"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=117,80,74,79",
+                    "@type": "sc:Canvas",
+                    "label": "[113]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=117,80,74,79#113",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=117,80,74,79",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7708884478<br/>啓 35.34  - 拾 4.68, 懸 4.74, 基 10.64, 密 33.74, 啓 35.34",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "啓"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=220,319,58,59",
+                    "@type": "sc:Canvas",
+                    "label": "[114]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=220,319,58,59#114",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=220,319,58,59",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7576816082<br/>悉 81.77  - 基 0.03, 惣 0.09, 想 1.13, 忠 16.95, 悉 81.77",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "悉"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,258,49,63",
+                    "@type": "sc:Canvas",
+                    "label": "[115]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,258,49,63#115",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=223,258,49,63",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7552084923<br/>年 99.99  - い 0.0, 拝 0.0, 此 0.0, ね 0.01, 年 99.99",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "年"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=102,192,73,81",
+                    "@type": "sc:Canvas",
+                    "label": "[116]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=102,192,73,81#116",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=102,192,73,81",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7326551676<br/>平 62.31  - 本 3.42, 寺 5.11, 幸 7.56, 午 18.33, 平 62.31",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "平"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=218,406,82,62",
+                    "@type": "sc:Canvas",
+                    "label": "[117]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=218,406,82,62#117",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=218,406,82,62",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.7264572978<br/>状 98.9  - 儀 0.01, 門 0.01, の 0.02, 代 1.05, 状 98.9",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "状"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,395,70,77",
+                    "@type": "sc:Canvas",
+                    "label": "[118]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,395,70,77#118",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=562,395,70,77",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.6253942847<br/>道 100.0  - 送 0.0, 通 0.0, 源 0.0, 後 0.0, 道 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "道"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=134,159,33,41",
+                    "@type": "sc:Canvas",
+                    "label": "[119]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=134,159,33,41#119",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=134,159,33,41",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5011558533<br/>年 99.18  - 事 0.04, 斗 0.15, も 0.19, 手 0.33, 年 99.18",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "年"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=226,232,36,35",
+                    "@type": "sc:Canvas",
+                    "label": "[120]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=226,232,36,35#120",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=226,232,36,35",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.5007175803<br/>如 100.0  - 候 0.0, 一 0.0, 御 0.0, ハ 0.0, 如 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "如"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=241,363,45,42",
+                    "@type": "sc:Canvas",
+                    "label": "[121]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=241,363,45,42#121",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=241,363,45,42",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.482417345<br/>也 100.0  - 候 0.0, 之 0.0, も 0.0, 御 0.0, 也 100.0",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "也"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=111,226,58,76",
+                    "@type": "sc:Canvas",
+                    "label": "[122]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=111,226,58,76#122",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=111,226,58,76",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4548082352<br/>悉 46.54  - 某 2.12, 追 8.14, 上 8.75, 息 10.09, 悉 46.54",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "悉"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,68,63,78",
+                    "@type": "sc:Canvas",
+                    "label": "[123]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,68,63,78#123",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=561,68,63,78",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.4082020819<br/>然 13.37  - 可 4.73, 言 6.7, 汰 10.79, 由 12.03, 然 13.37",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "然"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=228,334,58,72",
+                    "@type": "sc:Canvas",
+                    "label": "[124]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=228,334,58,72#124",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=228,334,58,72",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3882790506<br/>言 51.72  - 左 2.81, 謹 6.2, 隆 8.77, た 10.21, 言 51.72",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "言"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=115,336,64,88",
+                    "@type": "sc:Canvas",
+                    "label": "[125]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=115,336,64,88#125",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=115,336,64,88",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3605054617<br/>覚 45.25  - 覧 3.27, 資 4.74, 貫 4.95, 賢 19.26, 覚 45.25",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "覚"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=131,82,52,49",
+                    "@type": "sc:Canvas",
+                    "label": "[126]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=131,82,52,49#126",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=131,82,52,49",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.3356289864<br/>元 95.87  - 座 0.12, の 0.12, 九 1.15, て 2.63, 元 95.87",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "元"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                },
+                {
+                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=120,122,49,39",
+                    "@type": "sc:Canvas",
+                    "label": "[127]",
+                    "metadata": [
+                        {
+                            "label": "Annotation",
+                            "value": [
+                                {
+                                    "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=120,122,49,39#127",
+                                    "@type": "oa:Annotation",
+                                    "motivation": "sc:painting",
+                                    "on": "https://nakamura196.github.io/E34/iiif/0671-18-1/canvas/p3#xywh=120,122,49,39",
+                                    "resource": {
+                                        "@type": "cnt:ContentAsText",
+                                        "chars": "item<br/>0.2694369555<br/>思 94.82  - 岡 0.34, 三 0.37, 黒 1.82, 是 1.9, 思 94.82",
+                                        "format": "text/html",
+                                        "marker": {
+                                            "text": "思"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "width": 768
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/E34/iiif/0671-18-1/manifest.json",
+                "@type": "sc:Manifest",
+                "label": "入来院家文書@ja"
+            }
+        }
+    ],
+    "viewingHint": "annotation"
+}

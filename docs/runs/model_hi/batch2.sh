@@ -15,3 +15,4 @@ ID=$2
 mkdir -p output/$ID
 python detection2.py $URL $ID
 python classification2.py $ID
+python text.py $ID

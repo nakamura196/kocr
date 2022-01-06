@@ -12,6 +12,36 @@ import warnings
 warnings.filterwarnings("ignore")
 import argparse    # 1. argparseをインポート
 
+def getColor(score):
+    '''
+    if score < 0.1:
+        return "#0000FF"
+    elif score < 0.2:
+        return "#0055FF"
+    elif score < 0.3:
+        return "#0055FF"
+    elif score < 0.4:
+        return "#0055FF"
+    elif score < 0.5:
+        return "#0055FF"
+    elif score < 0.6:
+        return "#236BFF"
+    elif score < 0.7:
+        return "#81DCFF"
+    elif score < 0.8:
+        return "#FFD26F"
+    elif score < 0.9:
+        return "#FF5500"
+    else:
+        return "#FF5500"
+    '''
+    if score < 0.6:
+        return "#0000FF"
+    elif score < 0.8:
+        return "#FF5500"
+    else:
+        return "#FF0000"
+
 parser = argparse.ArgumentParser(description='このプログラムの説明（なくてもよい）')    # 2. パーサを作る
 
 # 3. parser.add_argumentで受け取る引数を追加していく
@@ -26,7 +56,7 @@ args = parser.parse_args()    # 4. 引数を解析
 manifest = args.manifest # "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/adata/bd1/BD1000-002200/1/manifest"
 item_id = args.id # "BD1000-002200_1"
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='../../best.pt') # .autoshape()  # force_reload = recache latest code
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='../../../best.pt') # .autoshape()  # force_reload = recache latest code
 model.eval()
 
 df = requests.get(manifest).json()
@@ -35,32 +65,50 @@ canvases = df["sequences"][0]["canvases"]
 
 members = []
 
+image_size = 1024
+
 for c in tqdm(range(len(canvases))):
     canvas = canvases[c]
 
     canvas_id = canvas["@id"]
+
+    c_width = canvas["width"]
+    c_height = canvas["height"]
     
-    url = canvas["images"][0]["resource"]["service"]["@id"] + "/full/1024,/0/default.jpg"
+    # url = canvas["images"][0]["resource"]["service"]["@id"] + "/full/1024,/0/default.jpg"
+    url = canvas["images"][0]["resource"]["@id"]
     # print(url)
 
     tmp_path = "output/{}/detection/{}.jpg".format(item_id, str(c + 1).zfill(4))
 
-    os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
+    if not os.path.exists(tmp_path):
 
-    request.urlretrieve(url, tmp_path)
+        os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
+
+        request.urlretrieve(url, tmp_path)
 
     img = Image.open(tmp_path)
 
-    width, height = img.size
+    w, h = img.size
 
-    results = model(img, size=1024)
+    # 長い辺
+    ll = max(w, h)
+
+    # 1024以下の場合がある
+    yolo_input_size = min(image_size, ll)
+
+    # 大きい場合には、小さくする
+    if ll > image_size:
+        r2 = image_size / ll
+        img = img.resize((int(w * r2), int(h * r2)))
+
+    results = model(img, size=yolo_input_size)
 
     data = results.pandas().xyxy[0].to_json(orient="records")
     data = json.loads(data)
 
-    # print(data)
-
-    r = canvas["width"] / 1024
+    # ダウンロードした画像がmaxを超える場合がある
+    r = max(c_width, c_height) / yolo_input_size
 
     for i in range(len(data)):
         obj = data[i]
@@ -102,7 +150,7 @@ for c in tqdm(range(len(canvases))):
                                 "chars": "item<br/>{}".format(score),
                                 "format": "text/html",
                                 "marker": {
-                                    "border-color": "#e41a1c",
+                                    "border-color": getColor(score),
                                     "border-width": 1
                                 }
                             }
@@ -110,18 +158,17 @@ for c in tqdm(range(len(canvases))):
                     ]
                 }
             ],
-            "image" : canvas["images"][0]["resource"]["service"]["@id"],
-            "thumbnail" : canvas["images"][0]["resource"]["service"]["@id"] + "/" + xywh + "/200,/0/default.jpg",
-            "width" : canvas["width"]
+            "width" : canvas["width"],
+            # "height" : canvas["height"]
         }
 
         members.append(member)
 
     # break
 
-    if c > 10: # 3:
-        # pass
-        break
+    if c > 0: # 3:
+        pass
+        # break
 
 curation = {
     "@context": [

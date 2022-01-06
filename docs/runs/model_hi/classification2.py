@@ -23,6 +23,8 @@ id = args.id # "genji_0001"
 
 imsize = (64, 64)
 
+isEncode = False
+
 json_open = open("model/labels.json", 'r')
 labels = json.load(json_open)
 
@@ -51,7 +53,7 @@ def predict(img):
 
     prelabel = np.argmax(prd, axis=1)[0]
     code = labels[prelabel].replace("U+", "\\u")
-    s_from_s_codecs_top = code # codecs.decode(code, 'unicode-escape')
+    s_from_s_codecs_top = codecs.decode(code, 'unicode-escape') if isEncode else code
 
     value = "{} {} ".format(s_from_s_codecs_top, round(prd[0][prelabel] * 100, 2))
 
@@ -64,7 +66,7 @@ def predict(img):
 
     for prelabel in prelabels:
         code = labels[prelabel].replace("U+", "\\u")
-        s_from_s_codecs = code # codecs.decode(code, 'unicode-escape')
+        s_from_s_codecs = codecs.decode(code, 'unicode-escape') if isEncode else code
 
         values.append("{} {}".format(s_from_s_codecs, round(prd[0][prelabel] * 100, 2)))
 
@@ -87,7 +89,7 @@ for member in curation["selections"][0]["members"]:
 
     if canvas not in canvases:
         canvases[canvas] = {
-            "image" : member["image"],
+            # "image" : member["image"],
             "width" : member["width"],
             "map" : []
         }
@@ -112,13 +114,14 @@ for canvas in tqdm(canvases):
     
 
     # url = obj["image"] + "/full/full/0/default.jpg"
-    tmp_path = "output/{}/classification/{}.jpg".format(id, str(c + 1).zfill(4))
+    # tmp_path = "output/{}/classification/{}.jpg".format(id, str(c + 1).zfill(4))
+    tmp_path = "output/{}/detection/{}.jpg".format(id, str(c + 1).zfill(4))
     
     c += 1
 
     if not os.path.exists(tmp_path):
         # url = obj["image"] + "/full/{},/0/default.jpg".format(r_size)
-        url = obj["image"] + "/full/full/0/default.jpg".format(r_size)
+        url = obj["image"]#  + "/full/full/0/default.jpg".format(r_size)
 
         os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
         request.urlretrieve(url, tmp_path)
