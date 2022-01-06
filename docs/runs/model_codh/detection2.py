@@ -67,6 +67,7 @@ members = []
 
 image_size = 1024
 
+print("Downloading images && detecting boxes ...")
 for c in tqdm(range(len(canvases))):
     canvas = canvases[c]
 
