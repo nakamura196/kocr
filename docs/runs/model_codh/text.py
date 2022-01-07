@@ -67,6 +67,7 @@ for i in range(len(members)):
         print(e)
         pass
 
+print("Setting reading orders ...")
 for canvas in tqdm(canvases):
 
     boxes = canvases[canvas]["values"]

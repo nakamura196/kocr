@@ -47,6 +47,8 @@ parser = argparse.ArgumentParser(description='このプログラムの説明（�
 # 3. parser.add_argumentで受け取る引数を追加していく
 parser.add_argument('manifest', help='この引数の説明（なくてもよい）')    # 必須の引数を追加
 parser.add_argument('id', help='foooo')
+parser.add_argument('--start', "-s", default=-1, type=int, help='foooo')
+parser.add_argument('--end', "-e", default=-1, type=int, help='foooo')
 
 args = parser.parse_args()    # 4. 引数を解析
 
@@ -55,6 +57,14 @@ args = parser.parse_args()    # 4. 引数を解析
 
 manifest = args.manifest # "https://clioapi.hi.u-tokyo.ac.jp/iiif/81/adata/bd1/BD1000-002200/1/manifest"
 item_id = args.id # "BD1000-002200_1"
+
+# 開始と終了が指定されている場合
+s = args.start # "BD1000-002200_1"
+e = args.end # "BD1000-002200_1"
+
+if s > -1:
+    s = s - 1
+    e = e - 1
 
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='../../../best.pt') # .autoshape()  # force_reload = recache latest code
 model.eval()
@@ -68,7 +78,12 @@ members = []
 image_size = 1024
 
 print("Downloading images && detecting boxes ...")
+
+if s > -1:
+    canvases = canvases[s:e+1]
+
 for c in tqdm(range(len(canvases))):
+
     canvas = canvases[c]
 
     canvas_id = canvas["@id"]
@@ -86,6 +101,9 @@ for c in tqdm(range(len(canvases))):
 
         os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
 
+        opener=request.build_opener()
+        opener.addheaders=[('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36')]
+        request.install_opener(opener)
         request.urlretrieve(url, tmp_path)
 
     img = Image.open(tmp_path)
