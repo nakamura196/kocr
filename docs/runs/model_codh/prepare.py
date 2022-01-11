@@ -45,6 +45,7 @@ for obj in df:
 # print(values)
 
 lines = []
+lines.append("set -e")
 
 for value in values:
   if value["start"] == "-1" or value["end"] == "-1":

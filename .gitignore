@@ -9,3 +9,6 @@ static/image0.jpg
 *.h5
 *.jpg
 docs/runs/model_codh/output/*/*.json
+
+main.sh
+metadata.json
