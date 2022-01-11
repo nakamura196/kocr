@@ -1,0 +1,64 @@
+{
+    "998": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p3",
+        "canvas_ids_topX": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p4",
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p3",
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p2"
+        ],
+        "koui_lines": "ちみなひきつれいきほひあらまほしくかむたちめなともあまたまいりつとひ給",
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p4#line=01",
+                0.6075949367088608
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p4#line=03",
+                0.31578947368421056
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p4#line=02",
+                0.30379746835443044
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p4#line=04",
+                0.2894736842105263
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p3#line=07",
+                0.25641025641025633
+            ]
+        ]
+    },
+    "1002": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p11",
+        "canvas_ids_topX": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p12",
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p11",
+            "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p10"
+        ],
+        "koui_lines": "みたりかはしくしひゑはし給をさる心していたうすまひなやめり君はすゑのよ",
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p12#line=01",
+                0.7341772151898734
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p12#line=02",
+                0.30379746835443044
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p12#line=06",
+                0.2784810126582279
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p11#line=07",
+                0.275
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411237/canvas/p10#line=07",
+                0.25974025974025977
+            ]
+        ]
+    }
+}

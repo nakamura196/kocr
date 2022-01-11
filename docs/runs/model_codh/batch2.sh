@@ -17,6 +17,11 @@ ID=$2
 START=$4
 END=$6
 
+if [ -z "$ID" ]; then
+  echo "IDを指定してください。"
+  exit 1
+fi
+
 if [ -n "$START" ]; then
   START="-s $START"
 fi
@@ -44,3 +49,6 @@ python classification2.py $ID
 
 echo "text"
 python text.py $ID
+
+echo "圧縮"
+python zsh.py $ID

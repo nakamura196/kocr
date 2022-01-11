@@ -72,6 +72,9 @@ answers = getAnswers()
 
 def getTestData():
 
+  testLineArray = []
+  # linesMap = {}
+
   canvas_labels = {}
 
   path = root + "/output/{}/map.json".format(file_id)
@@ -85,6 +88,13 @@ def getTestData():
           }
 
       canvas_labels[obj["canvas"]] = obj["label"]
+
+      labels = obj["label"]
+
+      for i in range(len(labels)):
+          line_id = obj["canvas"]+"#line=" + str(i+1).zfill(2)
+          testLineArray.append(line_id)
+          # linesMap[line_id] = 
 
   path = root + "/output/{}/calc.json".format(file_id)
   with open(path) as f:
@@ -101,9 +111,9 @@ def getTestData():
         canvases.append(hash_canvas_map[value["id"]])
       test[int(page)] = canvases
 
-  return test, canvas_labels
+  return test, canvas_labels, testLineArray
 
-test, canvas_labels = getTestData()
+test, canvas_labels, testLineArray = getTestData()
 
 total = 0
 correct = 0
@@ -123,6 +133,9 @@ def getPreviousCanvas(canvas):
   p = int(spl[1])
   next_p = p - 1
   return spl[0] + "/p" + str(next_p)
+
+error_top1 = {}
+error_topX = {}
 
 for page in test:
   # print("page", page, )
@@ -163,7 +176,15 @@ for page in test:
    # </!-- 計算終了 -->
 
   line_top = score_sorted[0][0]
+
+  print("line_top", line_top)
+  print("line_prev", testLineArray[testLineArray.index(line_top) - 1])
+  print("---")
+
   canvas_id_top = line_top.split("#line=")[0]
+  canvas_id_to_by_prev_line = testLineArray[testLineArray.index(line_top) - 1].split("#line=")[0]
+
+  predictCanvases = [canvas_id_top, canvas_id_to_by_prev_line]
 
   answer_canvas = answers[page]
 
@@ -171,9 +192,22 @@ for page in test:
 
   if answer_canvas in canvas_ids_top2:
     correctTop2 += 1
+  else:
+      error_topX[page] = {
+          "answer_canvas" : answer_canvas,
+          "originalCanvasesTop3" : test[page][0:3],
+          "canvas_ids_topX": canvas_ids_top2
+      }
 
-  if canvas_id_top == answer_canvas:
+  if answer_canvas in predictCanvases:
     correct += 1
+  else:
+      error_top1[page] = {
+          "koui_lines": koui_2_lines,
+          "scores_top5" : score_sorted[0:5],
+          "answer_canvas" : answer_canvas,
+          "canvas_ids_topX": predictCanvases
+      }
 
   
   # print("正解", answer_canvas, )
@@ -188,5 +222,23 @@ obj = {
     "top2" : correctTop2
 }
 
-print("正解Top1", correct, "全体", total, "比率", correct / total * 100)
-print("正解Top{}".format(window), correctTop2, "全体", total, "比率", correctTop2 / total * 100)
+opath = "data/{}/{}.json".format(target, str(vol).zfill(2))
+
+import os
+
+os.makedirs(os.path.dirname(opath), exist_ok=True)
+
+with open(opath, 'w') as outfile:
+    json.dump(obj, outfile, ensure_ascii=False,
+    indent=4, sort_keys=True, separators=(',', ': '))
+
+with open(opath.replace(".json", "_error_top1.json"), 'w') as outfile:
+    json.dump(error_top1, outfile, ensure_ascii=False,
+    indent=4, sort_keys=True, separators=(',', ': '))
+
+with open(opath.replace(".json", "_error_topX.json"), 'w') as outfile:
+    json.dump(error_topX, outfile, ensure_ascii=False,
+    indent=4, sort_keys=True, separators=(',', ': '))
+
+# print("正解Top1", correct, "全体", total, "比率", correct / total * 100)
+# print("正解Top{}".format(window), correctTop2, "全体", total, "比率", correctTop2 / total * 100)
