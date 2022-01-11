@@ -1,0 +1,31 @@
+{
+    "590": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p22",
+        "koui_lines": "すかたうちとけ給へるをいとめてたうゝれしとみたてまつるにあかのくなとの",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p23"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p23#line=01",
+                0.5822784810126582
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p22#line=07",
+                0.33766233766233766
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p23#line=02",
+                0.31168831168831174
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p22#line=06",
+                0.30379746835443044
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411216/canvas/p22#line=05",
+                0.2857142857142857
+            ]
+        ]
+    }
+}

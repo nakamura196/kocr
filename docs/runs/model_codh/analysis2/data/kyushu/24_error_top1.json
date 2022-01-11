@@ -1,0 +1,31 @@
+{
+    "782": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p2",
+        "koui_lines": "とのしらぬくにゝきたらむ心ちしてあはれにおもしろくみならはぬ女はうなと",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p3"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p3#line=01",
+                0.5714285714285715
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p2#line=03",
+                0.2337662337662337
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p2#line=09",
+                0.2337662337662337
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p3#line=02",
+                0.22784810126582272
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411225/canvas/p2#line=05",
+                0.2222222222222223
+            ]
+        ]
+    }
+}

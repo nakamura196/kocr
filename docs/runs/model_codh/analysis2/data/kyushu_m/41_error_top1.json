@@ -1,0 +1,89 @@
+{
+    "1404": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p3",
+        "koui_lines": "さりしかと時〱はみはなたぬやうにおほしたりつる人〻もなか〱かゝるさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p4"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p4#line=01",
+                0.5352112676056339
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p4#line=09",
+                0.2816901408450704
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p4#line=04",
+                0.27397260273972607
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p3#line=05",
+                0.27397260273972607
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p4#line=02",
+                0.2666666666666667
+            ]
+        ]
+    },
+    "1419": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p34",
+        "koui_lines": "て給て",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p35"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p35#line=09",
+                0.5714285714285715
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p34#line=09",
+                0.2
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p35#line=03",
+                0.17391304347826092
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p35#line=08",
+                0.17391304347826092
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p34#line=06",
+                0.17391304347826092
+            ]
+        ]
+    },
+    "1421": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p38",
+        "koui_lines": "こし給へりけるをものゝついてに御覧しつけてやらせ給ひなとするにかのすま",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p39"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p39#line=02",
+                0.30985915492957744
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p39#line=01",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p39#line=04",
+                0.27397260273972607
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p38#line=04",
+                0.2666666666666667
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411305/canvas/p38#line=07",
+                0.2666666666666667
+            ]
+        ]
+    }
+}

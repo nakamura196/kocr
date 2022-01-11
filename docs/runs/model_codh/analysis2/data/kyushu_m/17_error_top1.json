@@ -1,0 +1,31 @@
+{
+    "569": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p27",
+        "koui_lines": "殿のすのこにをの〱心よせつゝさふらふ左はしたむのはこにすわうの花そく",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p28"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p28#line=01",
+                0.55
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p28#line=07",
+                0.368421052631579
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p28#line=02",
+                0.36111111111111116
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p27#line=11",
+                0.2926829268292683
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411281/canvas/p27#line=05",
+                0.26315789473684204
+            ]
+        ]
+    }
+}

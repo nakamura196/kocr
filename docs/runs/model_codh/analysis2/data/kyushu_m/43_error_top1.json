@@ -1,0 +1,31 @@
+{
+    "1458": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p22",
+        "koui_lines": "宮は御ふさひのかたにきゝつたへたまひてふかういかてとおもほしなりにけり",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p23"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p23#line=01",
+                0.5194805194805194
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p22#line=04",
+                0.32
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p23#line=09",
+                0.2933333333333333
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p23#line=02",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411307/canvas/p23#line=06",
+                0.2784810126582279
+            ]
+        ]
+    }
+}

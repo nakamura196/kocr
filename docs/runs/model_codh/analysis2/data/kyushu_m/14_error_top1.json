@@ -1,0 +1,118 @@
+{
+    "489": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p14",
+        "koui_lines": "るへきさまにのたまひちきるまたわかくなに心もなき人にてあけ暮人しれぬあ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p15"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p15#line=01",
+                0.5866666666666667
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p14#line=09",
+                0.36363636363636365
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p14#line=01",
+                0.34666666666666673
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p15#line=02",
+                0.2337662337662337
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p15#line=04",
+                0.2337662337662337
+            ]
+        ]
+    },
+    "491": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p18",
+        "koui_lines": "たき御心はへをおもふにいよ〱いたはしうおそろしきまて思ふちこのいとゆ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p19"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p19#line=01",
+                0.6216216216216216
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p19#line=02",
+                0.4473684210526316
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p18#line=09",
+                0.29729729729729726
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p19#line=04",
+                0.25
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p19#line=07",
+                0.24324324324324323
+            ]
+        ]
+    },
+    "503": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p43",
+        "koui_lines": "ぬ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p44"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p44#line=05",
+                0.1
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p43#line=11",
+                0.09523809523809518
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p44#line=01",
+                0.0
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p44#line=02",
+                0.0
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p44#line=03",
+                0.0
+            ]
+        ]
+    },
+    "511": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p60",
+        "koui_lines": "さなひきこえ給し御心にかきりあるみちにてはたくひきこえ給はすなりにしを",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p61"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p61#line=01",
+                0.5063291139240507
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p60#line=09",
+                0.3013698630136986
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p60#line=07",
+                0.2933333333333333
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p61#line=02",
+                0.27397260273972607
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411278/canvas/p61#line=03",
+                0.2666666666666667
+            ]
+        ]
+    }
+}

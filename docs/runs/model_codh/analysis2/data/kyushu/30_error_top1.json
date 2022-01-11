@@ -1,0 +1,31 @@
+{
+    "930": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p27",
+        "koui_lines": "かにて",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p26"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p26#line=01",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p27#line=07",
+                0.26086956521739124
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p27#line=08",
+                0.17391304347826092
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p26#line=02",
+                0.17391304347826092
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411233/canvas/p26#line=06",
+                0.17391304347826092
+            ]
+        ]
+    }
+}

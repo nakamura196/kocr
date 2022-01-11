@@ -1,0 +1,89 @@
+{
+    "731": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p25",
+        "koui_lines": "くなむ御しるしをえてまかりのほりたるとはやく申給へとてやはたにまうてさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p26"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p26#line=01",
+                0.5753424657534246
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p26#line=03",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p26#line=09",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p26#line=06",
+                0.2784810126582279
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p25#line=08",
+                0.2784810126582279
+            ]
+        ]
+    },
+    "732": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p27",
+        "koui_lines": "はせんかたなくてやすみ給このたのもし人なるすけゆみやもちたる人ふたりさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p28"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p28#line=01",
+                0.5714285714285715
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p28#line=07",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p28#line=02",
+                0.2531645569620254
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p27#line=06",
+                0.2531645569620254
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p28#line=06",
+                0.22784810126582272
+            ]
+        ]
+    },
+    "752": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p68",
+        "koui_lines": "きこえ給御さまかたちよりはしめ目もあやにおほゆるにいまそ三条も大弐をあ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p69"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p69#line=01",
+                0.31168831168831174
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p68#line=08",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p69#line=03",
+                0.2133333333333333
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p69#line=04",
+                0.20779220779220778
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411222/canvas/p69#line=06",
+                0.20779220779220778
+            ]
+        ]
+    }
+}

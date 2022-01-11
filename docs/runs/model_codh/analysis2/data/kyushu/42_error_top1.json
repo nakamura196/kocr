@@ -1,0 +1,31 @@
+{
+    "1438": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p19",
+        "koui_lines": "たゝ人にてはゝはかりなきめてたき人のおほえにて物し給へと心の中には身を",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p20"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p20#line=01",
+                0.5569620253164557
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p20#line=02",
+                0.3544303797468355
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p20#line=06",
+                0.30379746835443044
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p19#line=08",
+                0.2857142857142857
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p20#line=03",
+                0.2784810126582279
+            ]
+        ]
+    }
+}

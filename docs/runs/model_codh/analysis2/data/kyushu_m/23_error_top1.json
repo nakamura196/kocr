@@ -1,0 +1,89 @@
+{
+    "768": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p12",
+        "koui_lines": "とけたるもすちかはりゆへあるかきさまなりこと〱しうさうかちなとにもさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p13"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p13#line=01",
+                0.36111111111111116
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p13#line=06",
+                0.3428571428571429
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p13#line=08",
+                0.33333333333333326
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p12#line=04",
+                0.3142857142857143
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p12#line=10",
+                0.3076923076923077
+            ]
+        ]
+    },
+    "772": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p21",
+        "koui_lines": "きぬはいとよし山ふしのみのしろ衣にゆつり給てあへなんさてこのいたはりな",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p24"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p24#line=04",
+                0.32
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p24#line=07",
+                0.2531645569620254
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p24#line=08",
+                0.24657534246575338
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p23#line=03",
+                0.24657534246575338
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p23#line=04",
+                0.2337662337662337
+            ]
+        ]
+    },
+    "773": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p25",
+        "koui_lines": "まをはるかに思てそやみぬへかりけるむかしよりこゝろうかりける御契かなさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22#line=01",
+                0.6582278481012659
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22#line=02",
+                0.4
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22#line=03",
+                0.32876712328767127
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22#line=08",
+                0.2933333333333333
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p22#line=06",
+                0.24
+            ]
+        ]
+    }
+}

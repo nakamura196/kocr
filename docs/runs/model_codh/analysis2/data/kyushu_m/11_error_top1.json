@@ -1,0 +1,31 @@
+{
+    "388": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p3",
+        "koui_lines": "そこはかとなくけはひおかしきをたゝひとめみ給しやとりなりとみたまふたゝ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p4"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p4#line=01",
+                0.5063291139240507
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p4#line=02",
+                0.31325301204819284
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p3#line=04",
+                0.26506024096385544
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p4#line=10",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p3#line=06",
+                0.24096385542168675
+            ]
+        ]
+    }
+}

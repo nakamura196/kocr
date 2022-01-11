@@ -1,0 +1,31 @@
+{
+    "2070": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p32",
+        "koui_lines": "いとゝかゝることゝもにおほしみたるゝにやつねよりも物おほえさせ給はぬさ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p33"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p33#line=01",
+                0.4383561643835616
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p32#line=04",
+                0.2666666666666667
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p33#line=07",
+                0.26506024096385544
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p33#line=02",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411318/canvas/p32#line=01",
+                0.25974025974025977
+            ]
+        ]
+    }
+}
