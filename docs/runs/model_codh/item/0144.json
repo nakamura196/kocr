@@ -20,7 +20,28 @@
     "next": "0145",
     "page": 144,
     "prev": "0143",
-    "related": {},
+    "related": {
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00189",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00189.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 190,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00190",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00190.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 191,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "04 夕顔"
 }
