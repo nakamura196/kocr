@@ -23,19 +23,21 @@
     "related": {
         "NDL02": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943180/canvas/23",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943180/F0000023/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/06.json",
+                "name": "伝嵯峨本",
                 "page": 23,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 6"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943180/canvas/24",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943180/F0000024/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/06.json",
+                "name": "伝嵯峨本",
                 "page": 24,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 6"
@@ -43,19 +45,21 @@
         ],
         "NDL03": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585103/canvas/36",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/2585103/F0000036/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/06.json",
+                "name": "近世前期写本",
                 "page": 36,
                 "type": "コマ",
                 "work": "[源氏物語]. [6]"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585103/canvas/37",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/2585103/F0000037/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/06.json",
+                "name": "近世前期写本",
                 "page": 37,
                 "type": "コマ",
                 "work": "[源氏物語]. [6]"
@@ -63,19 +67,21 @@
         ],
         "NDL04": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010878/canvas/24",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010878/F0000024/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/06.json",
+                "name": "元和9年古活字版",
                 "page": 24,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [6]"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010878/canvas/25",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010878/F0000025/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/06.json",
+                "name": "元和9年古活字版",
                 "page": 25,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [6]"
@@ -171,6 +177,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/293",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0292.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/06.json",
+                "name": "平松家本",
                 "page": 33,
                 "type": "コマ",
                 "work": "末摘花"
@@ -180,6 +187,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/294",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0293.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/06.json",
+                "name": "平松家本",
                 "page": 34,
                 "type": "コマ",
                 "work": "末摘花"
@@ -191,6 +199,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539140",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/06/RB00007030_00291_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/06.json",
+                "name": "中院文庫本",
                 "page": 32,
                 "type": "コマ",
                 "work": "末摘花"
@@ -200,6 +209,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539141",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/06/RB00007030_00292_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/06.json",
+                "name": "中院文庫本",
                 "page": 33,
                 "type": "コマ",
                 "work": "末摘花"
@@ -207,19 +217,21 @@
         ],
         "東大本": [
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9b019cdd-a43c-3671-3139-96c3918a356f/canvas/p26",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/06/06_0026.tif/full/200,200/0/default.jpg",
                 "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/06.json",
+                "name": "東京大学本",
                 "page": 26,
                 "type": "コマ",
                 "work": "末摘花"
             },
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/9b019cdd-a43c-3671-3139-96c3918a356f/canvas/p27",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/06/06_0027.tif/full/200,200/0/default.jpg",
                 "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/06.json",
+                "name": "東京大学本",
                 "page": 27,
                 "type": "コマ",
                 "work": "末摘花"
@@ -227,19 +239,21 @@
         ],
         "湖月抄（国文研所蔵）": [
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/247",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00247.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/06.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 247,
                 "type": "コマ",
                 "work": "末摘花"
             },
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/248",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00248.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/06.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 248,
                 "type": "コマ",
                 "work": "末摘花"

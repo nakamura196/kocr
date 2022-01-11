@@ -23,19 +23,21 @@
     "related": {
         "NDL02": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943228/canvas/10",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943228/F0000010/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/54.json",
+                "name": "伝嵯峨本",
                 "page": 10,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 54"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943228/canvas/11",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943228/F0000011/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/54.json",
+                "name": "伝嵯峨本",
                 "page": 11,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 54"
@@ -43,19 +45,21 @@
         ],
         "NDL03": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585151/canvas/17",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/2585151/F0000017/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/54.json",
+                "name": "近世前期写本",
                 "page": 17,
                 "type": "コマ",
                 "work": "[源氏物語]. [54]"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585151/canvas/18",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/2585151/F0000018/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/54.json",
+                "name": "近世前期写本",
                 "page": 18,
                 "type": "コマ",
                 "work": "[源氏物語]. [54]"
@@ -63,19 +67,21 @@
         ],
         "NDL04": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010923/canvas/12",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010923/F0000012/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/54.json",
+                "name": "元和9年古活字版",
                 "page": 12,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [54]"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010923/canvas/13",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010923/F0000013/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/54.json",
+                "name": "元和9年古活字版",
                 "page": 13,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [54]"
@@ -129,6 +135,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/2838",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-2837.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/54.json",
+                "name": "平松家本",
                 "page": 20,
                 "type": "コマ",
                 "work": "夢浮橋"
@@ -138,6 +145,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/2839",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-2838.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/54.json",
+                "name": "平松家本",
                 "page": 21,
                 "type": "コマ",
                 "work": "夢浮橋"
@@ -149,6 +157,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page541563",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/52/RB00007030_02715_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/54.json",
+                "name": "中院文庫本",
                 "page": 15,
                 "type": "コマ",
                 "work": "夢浮橋"
@@ -158,6 +167,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page541564",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/52/RB00007030_02716_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/54.json",
+                "name": "中院文庫本",
                 "page": 16,
                 "type": "コマ",
                 "work": "夢浮橋"
@@ -165,19 +175,21 @@
         ],
         "東大本": [
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/090075d0-3e81-8414-5d57-62c516f49e47/canvas/p12",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/54/54_0012.tif/full/200,200/0/default.jpg",
                 "manifest": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/090075d0-3e81-8414-5d57-62c516f49e47/manifest",
+                "name": "東京大学本",
                 "page": 12,
                 "type": "コマ",
                 "work": "夢浮橋"
             },
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/090075d0-3e81-8414-5d57-62c516f49e47/canvas/p13",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/54/54_0013.tif/full/200,200/0/default.jpg",
                 "manifest": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/090075d0-3e81-8414-5d57-62c516f49e47/manifest",
+                "name": "東京大学本",
                 "page": 13,
                 "type": "コマ",
                 "work": "夢浮橋"
@@ -185,19 +197,21 @@
         ],
         "湖月抄（国文研所蔵）": [
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2323",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02324.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/54.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 2323,
                 "type": "コマ",
                 "work": "夢浮橋"
             },
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2324",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02325.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/54.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 2324,
                 "type": "コマ",
                 "work": "夢浮橋"

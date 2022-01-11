@@ -23,19 +23,21 @@
     "related": {
         "NDL02": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943213/canvas/16",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943213/F0000016/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/39.json",
+                "name": "伝嵯峨本",
                 "page": 16,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 39"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943213/canvas/17",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/8943213/F0000017/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/39.json",
+                "name": "伝嵯峨本",
                 "page": 17,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. 39"
@@ -43,19 +45,11 @@
         ],
         "NDL03": [
             {
-                "attribution": "国立国会図書館",
-                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585136/canvas/24",
-                "image": "https://www.dl.ndl.go.jp/api/iiif/2585136/F0000024/full/full/0/default.jpg",
-                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/39.json",
-                "page": 24,
-                "type": "コマ",
-                "work": "[源氏物語]. [39]"
-            },
-            {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585136/canvas/25",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/2585136/F0000025/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/39.json",
+                "name": "近世前期写本",
                 "page": 25,
                 "type": "コマ",
                 "work": "[源氏物語]. [39]"
@@ -63,19 +57,21 @@
         ],
         "NDL04": [
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010910/canvas/16",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010910/F0000016/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/39.json",
+                "name": "元和9年古活字版",
                 "page": 16,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [39]"
             },
             {
-                "attribution": "国立国会図書館",
+                "attribution": "国会図書館",
                 "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010910/canvas/17",
                 "image": "https://www.dl.ndl.go.jp/api/iiif/3010910/F0000017/full/full/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/39.json",
+                "name": "元和9年古活字版",
                 "page": 17,
                 "type": "コマ",
                 "work": "[源氏物語] 54巻. [39]"
@@ -150,6 +146,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1801",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1800.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/39.json",
+                "name": "平松家本",
                 "page": 21,
                 "type": "コマ",
                 "work": "夕霧"
@@ -159,6 +156,7 @@
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1802",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1801.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/39.json",
+                "name": "平松家本",
                 "page": 22,
                 "type": "コマ",
                 "work": "夕霧"
@@ -170,6 +168,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540543",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/37/RB00007030_01695_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/39.json",
+                "name": "中院文庫本",
                 "page": 21,
                 "type": "コマ",
                 "work": "夕霧"
@@ -179,6 +178,7 @@
                 "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540544",
                 "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/37/RB00007030_01696_0.ptif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/39.json",
+                "name": "中院文庫本",
                 "page": 22,
                 "type": "コマ",
                 "work": "夕霧"
@@ -186,19 +186,21 @@
         ],
         "東大本": [
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1c507ec6-65f9-7a80-4d6a-303187ef60f4/canvas/p18",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/39/39_0018.tif/full/200,200/0/default.jpg",
                 "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/39.json",
+                "name": "東京大学本",
                 "page": 18,
                 "type": "コマ",
                 "work": "夕霧"
             },
             {
-                "attribution": "東京大学",
+                "attribution": "東京大学総合図書館",
                 "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/1c507ec6-65f9-7a80-4d6a-303187ef60f4/canvas/p19",
                 "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/39/39_0019.tif/full/200,200/0/default.jpg",
                 "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/39.json",
+                "name": "東京大学本",
                 "page": 19,
                 "type": "コマ",
                 "work": "夕霧"
@@ -206,19 +208,21 @@
         ],
         "湖月抄（国文研所蔵）": [
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/1500",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-01501.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/39.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 1500,
                 "type": "コマ",
                 "work": "夕霧"
             },
             {
-                "attribution": "国文学研究資料館",
+                "attribution": "国文研",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/1501",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-01502.tif/full/200,/0/default.jpg",
                 "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/39.json",
+                "name": "『湖月抄』鵜飼文庫",
                 "page": 1501,
                 "type": "コマ",
                 "work": "夕霧"

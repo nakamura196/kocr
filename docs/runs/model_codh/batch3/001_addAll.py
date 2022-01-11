@@ -118,6 +118,37 @@ def getCanvasIdTop(data):
 
   return result
 
+labels= {
+    "NDL02": {
+        "name" : "伝嵯峨本",
+        "attribution": "国会図書館"
+    },
+    "NDL03": {
+        "name" : "近世前期写本",
+        "attribution": "国会図書館"
+    },
+    "NDL04": {
+        "name" : "元和9年古活字版",
+        "attribution": "国会図書館"
+    },
+    "京大本01": {
+        "name" : "平松家本",
+        "attribution": "京都大学"
+    },
+    "京大本02": {
+        "name" : "中院文庫本",
+        "attribution": "京都大学"
+    },
+    "東大本": {
+        "name" : "東京大学本",
+        "attribution": "東京大学総合図書館"
+    },
+    "湖月抄（国文研所蔵）": {
+        "name" : "『湖月抄』鵜飼文庫",
+        "attribution": "国文研"
+    }
+}
+
 for page in df:
     
     arr = df[page]["arr"]
@@ -127,7 +158,7 @@ for page in df:
         continue
     '''
 
-    # print("page", page)
+    print("page", page)
 
     for target in arr:
         '''
@@ -199,13 +230,14 @@ for page in df:
                 obj = canvasMap[canvas_id]
                 # print(obj)
                 obj2 = {
-                    "attribution" : obj["attribution"],
+                    "attribution" : labels[target]["attribution"], # obj["attribution"],
                     "work": obj["work"],
                     "manifest" : obj["manifest"],
                     "canvas" : obj["canvas"],
                     "page" : obj["page"],
                     "type" : obj["type"],
-                    "image" : obj["image"]
+                    "image" : obj["image"],
+                    "name" : labels[target]["name"]
                 }
 
                 arr2.insert(0, obj2)
@@ -220,12 +252,10 @@ for page in df:
 
         related[target] = arr2
 
-        '''
+        
         with open(path, 'w') as outfile:
             json.dump(df3, outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
-
-        '''
 
 
     # break
