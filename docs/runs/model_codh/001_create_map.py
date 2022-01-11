@@ -166,8 +166,11 @@ def getCanvasTextMap(members):
 
   return canvas_text_map
 
-path = root + "/output/{}/text.json".format(file_id)
-with open(path) as f:
+import json
+import gzip
+
+path = root + "/output/{}/text.json.gzip".format(file_id)
+with gzip.open(path, 'r') as f:
   df = json.load(f)
 
 selections = df["selections"]
