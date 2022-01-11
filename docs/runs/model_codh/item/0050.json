@@ -144,6 +144,27 @@
                 "work": "源氏物語"
             }
         ],
+        "utokyo_l": [
+            {
+                "attribution": "aaa",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/52",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0051.tif/full/200,/0/default.jpg",
+                "line": "16",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "page": 52,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/53",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0052.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "page": 53,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ],
         "京大本01": [
             {
                 "attribution": "京都大学",
