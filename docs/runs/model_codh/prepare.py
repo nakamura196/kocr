@@ -77,7 +77,7 @@ for value in values:
   lines.append("python classification2.py {}".format(value_id))
 
   lines.append("echo '■■■ text'")
-  lines.append("python text2.py {}".format(value_id))
+  lines.append("python text.py {}".format(value_id))
 
   lines.append("echo '■■■ gzip'")
   lines.append("python zsh.py {}".format(value_id))
