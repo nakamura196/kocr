@@ -35,6 +35,8 @@ if [ -e output/$ID/text.json ]; then
   exit 1
 fi
 
+echo $ID
+
 if [ -e output/$ID ]; then
   rm -rf output/$ID
 fi
@@ -53,6 +55,9 @@ python text.py $ID
 echo "圧縮"
 python zsh.py $ID
 
+git pull
+
+echo "算出"
 # 算出
 python 001_create_map.py $ID aaa
 python 002_calc.py $ID aaa
