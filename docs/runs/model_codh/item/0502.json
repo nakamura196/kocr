@@ -21,6 +21,66 @@
     "page": 502,
     "prev": "0501",
     "related": {
+        "NDL02": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943188/canvas/21",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943188/F0000021/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/14.json",
+                "page": 21,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 14"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943188/canvas/22",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943188/F0000022/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/14.json",
+                "page": 22,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 14"
+            }
+        ],
+        "NDL03": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585111/canvas/51",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585111/F0000051/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/14.json",
+                "page": 51,
+                "type": "コマ",
+                "work": "[源氏物語]. [14]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585111/canvas/52",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585111/F0000052/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/14.json",
+                "page": 52,
+                "type": "コマ",
+                "work": "[源氏物語]. [14]"
+            }
+        ],
+        "NDL04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010886/canvas/20",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010886/F0000020/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/14.json",
+                "page": 20,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [14]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010886/canvas/21",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010886/F0000021/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/14.json",
+                "page": 21,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [14]"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "aaa",
@@ -37,6 +97,86 @@
                 "page": 651,
                 "type": "コマ",
                 "work": "源氏物語"
+            }
+        ],
+        "京大本01": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/686",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0685.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/14.json",
+                "page": 31,
+                "type": "コマ",
+                "work": "澪標"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/687",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0686.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/14.json",
+                "page": 32,
+                "type": "コマ",
+                "work": "澪標"
+            }
+        ],
+        "京大本02": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539440",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/12/RB00007030_00591_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/14.json",
+                "page": 31,
+                "type": "コマ",
+                "work": "澪標"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539441",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/12/RB00007030_00592_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/14.json",
+                "page": 32,
+                "type": "コマ",
+                "work": "澪標"
+            }
+        ],
+        "東大本": [
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e47d012e-19e0-0e31-5f80-edc931ef609f/canvas/p22",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/14/14_0022.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/14.json",
+                "page": 22,
+                "type": "コマ",
+                "work": "水衝石（澪標）"
+            },
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/e47d012e-19e0-0e31-5f80-edc931ef609f/canvas/p23",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/14/14_0023.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/14.json",
+                "page": 23,
+                "type": "コマ",
+                "work": "水衝石（澪標）"
+            }
+        ],
+        "湖月抄（国文研所蔵）": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/567",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00567.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/14.json",
+                "page": 567,
+                "type": "コマ",
+                "work": "澪標"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/568",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00568.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/14.json",
+                "page": 568,
+                "type": "コマ",
+                "work": "澪標"
             }
         ]
     },

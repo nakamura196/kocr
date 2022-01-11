@@ -20,7 +20,148 @@
     "next": "0857",
     "page": 856,
     "prev": "0855",
-    "related": {},
+    "related": {
+        "NDL02": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943201/canvas/2",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943201/F0000002/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/27.json",
+                "page": 2,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 27"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943201/canvas/3",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943201/F0000003/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/27.json",
+                "page": 3,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 27"
+            }
+        ],
+        "NDL03": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585124/canvas/5",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585124/F0000005/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/27.json",
+                "page": 5,
+                "type": "コマ",
+                "work": "[源氏物語]. [27]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585124/canvas/6",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585124/F0000006/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/27.json",
+                "page": 6,
+                "type": "コマ",
+                "work": "[源氏物語]. [27]"
+            }
+        ],
+        "NDL04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010898/canvas/2",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010898/F0000002/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/27.json",
+                "page": 2,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [27]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010898/canvas/3",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010898/F0000003/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/27.json",
+                "page": 3,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [27]"
+            }
+        ],
+        "京大本01": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1169",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1168.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/27.json",
+                "page": 5,
+                "type": "コマ",
+                "work": "篝火"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1170",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1169.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/27.json",
+                "page": 6,
+                "type": "コマ",
+                "work": "篝火"
+            }
+        ],
+        "京大本02": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539919",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/25/RB00007030_01071_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/27.json",
+                "page": 4,
+                "type": "コマ",
+                "work": "篝火"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539920",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/25/RB00007030_01072_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/27.json",
+                "page": 5,
+                "type": "コマ",
+                "work": "篝火"
+            }
+        ],
+        "東大本": [
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p4",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/27/27_0004.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json",
+                "page": 4,
+                "type": "コマ",
+                "work": "篝火"
+            },
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p5",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/27/27_0005.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json",
+                "page": 5,
+                "type": "コマ",
+                "work": "篝火"
+            }
+        ],
+        "湖月抄（国文研所蔵）": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/978",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00979.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/27.json",
+                "page": 978,
+                "type": "コマ",
+                "work": "篝火"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/979",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00980.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/27.json",
+                "page": 979,
+                "type": "コマ",
+                "work": "篝火"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "27 篝火"
 }

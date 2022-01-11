@@ -107,12 +107,12 @@ def getCanvasIdTop(data):
   return result
 
 for page in df:
-    # print("page", page)
+    print("page", page)
     arr = df[page]["arr"]
 
     for target in arr:
 
-        print("attr", target)
+        # print("attr", target)
 
         values = arr[target]
         scores = []
@@ -120,6 +120,8 @@ for page in df:
         for value in values:
             scores.append(value["score"])
 
+        if len(scores) == 0:
+            continue
         
         from statistics import mean
         m = mean(scores)
@@ -148,11 +150,11 @@ for page in df:
 
         canvas_list = attrMap[target]
 
-        print("values2", values2)
+        # print("values2", values2)
 
         canvas_id_top = getCanvasIdTop(values2)
 
-        print("canvas_id_top", canvas_id_top)
+        # print("canvas_id_top", canvas_id_top)
 
         canvas_ids_top2 = [canvas_id_top]
 

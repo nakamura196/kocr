@@ -20,7 +20,148 @@
     "next": "0789",
     "page": 788,
     "prev": "0787",
-    "related": {},
+    "related": {
+        "NDL02": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943198/canvas/9",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943198/F0000009/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/24.json",
+                "page": 9,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 24"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943198/canvas/10",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943198/F0000010/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/24.json",
+                "page": 10,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 24"
+            }
+        ],
+        "NDL03": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585121/canvas/14",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585121/F0000014/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/24.json",
+                "page": 14,
+                "type": "コマ",
+                "work": "[源氏物語]. [24]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585121/canvas/15",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585121/F0000015/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/24.json",
+                "page": 15,
+                "type": "コマ",
+                "work": "[源氏物語]. [24]"
+            }
+        ],
+        "NDL04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010895/canvas/9",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010895/F0000009/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/24.json",
+                "page": 9,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [24]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010895/canvas/10",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010895/F0000010/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/24.json",
+                "page": 10,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [24]"
+            }
+        ],
+        "京大本01": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1090",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1089.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/24.json",
+                "page": 27,
+                "type": "コマ",
+                "work": "胡蝶"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/1091",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-1090.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/24.json",
+                "page": 28,
+                "type": "コマ",
+                "work": "胡蝶"
+            }
+        ],
+        "京大本02": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539830",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/22/RB00007030_00982_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/24.json",
+                "page": 12,
+                "type": "コマ",
+                "work": "胡蝶"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539831",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/22/RB00007030_00983_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/24.json",
+                "page": 13,
+                "type": "コマ",
+                "work": "胡蝶"
+            }
+        ],
+        "東大本": [
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4271a091-4284-0150-1c1a-8c0a81fb2dc7/canvas/p11",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/24/24_0011.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/24.json",
+                "page": 11,
+                "type": "コマ",
+                "work": "胡蝶"
+            },
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/4271a091-4284-0150-1c1a-8c0a81fb2dc7/canvas/p12",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/24/24_0012.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/24.json",
+                "page": 12,
+                "type": "コマ",
+                "work": "胡蝶"
+            }
+        ],
+        "湖月抄（国文研所蔵）": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/896",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00897.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/24.json",
+                "page": 896,
+                "type": "コマ",
+                "work": "胡蝶"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/897",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00898.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/24.json",
+                "page": 897,
+                "type": "コマ",
+                "work": "胡蝶"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "24 胡蝶"
 }

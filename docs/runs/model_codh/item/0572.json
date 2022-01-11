@@ -21,6 +21,66 @@
     "page": 572,
     "prev": "0571",
     "related": {
+        "NDL02": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943191/canvas/17",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943191/F0000017/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/17.json",
+                "page": 17,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 17"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943191/canvas/18",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943191/F0000018/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/17.json",
+                "page": 18,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 17"
+            }
+        ],
+        "NDL03": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585114/canvas/45",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585114/F0000045/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/17.json",
+                "page": 45,
+                "type": "コマ",
+                "work": "[源氏物語]. [17]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585114/canvas/46",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585114/F0000046/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/17.json",
+                "page": 46,
+                "type": "コマ",
+                "work": "[源氏物語]. [17]"
+            }
+        ],
+        "NDL04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010889/canvas/17",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010889/F0000017/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/17.json",
+                "page": 17,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [17]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010889/canvas/18",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010889/F0000018/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/17.json",
+                "page": 18,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [17]"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "aaa",
@@ -39,6 +99,86 @@
                 "page": 721,
                 "type": "コマ",
                 "work": "源氏物語"
+            }
+        ],
+        "京大本01": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/765",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0764.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/17.json",
+                "page": 9,
+                "type": "コマ",
+                "work": "絵合"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/766",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0765.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/17.json",
+                "page": 10,
+                "type": "コマ",
+                "work": "絵合"
+            }
+        ],
+        "京大本02": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539534",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/15/RB00007030_00685_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/17.json",
+                "page": 23,
+                "type": "コマ",
+                "work": "絵合"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page539535",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/15/RB00007030_00686_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/17.json",
+                "page": 24,
+                "type": "コマ",
+                "work": "絵合"
+            }
+        ],
+        "東大本": [
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dde16b8e-72c3-8a66-7577-c62854cd4337/canvas/p20",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/17/17_0020.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/17.json",
+                "page": 20,
+                "type": "コマ",
+                "work": "絵合"
+            },
+            {
+                "attribution": "東京大学",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/dde16b8e-72c3-8a66-7577-c62854cd4337/canvas/p21",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/17/17_0021.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/17.json",
+                "page": 21,
+                "type": "コマ",
+                "work": "絵合"
+            }
+        ],
+        "湖月抄（国文研所蔵）": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/646",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00647.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/17.json",
+                "page": 646,
+                "type": "コマ",
+                "work": "絵合"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/647",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00648.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/17.json",
+                "page": 647,
+                "type": "コマ",
+                "work": "絵合"
             }
         ]
     },
