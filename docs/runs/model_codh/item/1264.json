@@ -122,6 +122,27 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/01506",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01506.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 1507,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/01507",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01507.tif/full/200,/0/default.jpg",
+                "line": "05",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 1508,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ],
         "京大本01": [
             {
                 "attribution": "京都大学",
