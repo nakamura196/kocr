@@ -67,10 +67,22 @@ for target in attrMap:
 canvas_list = None
 
 def getPreviousCanvas(canvas):
-  # print("canvas_list", canvas_list, "canvas", canvas)
+  # print("canvas_list", canvas_list)
   index = canvas_list.index(canvas)
-  if index > 0:
-    return canvas_list[index - 1]
+  # print("index", index, "canvas", canvas)
+  # print("aaa", canvas_list[index - 1])
+  if index > -1:
+    pCanvas = canvas_list[index - 1]
+    spl0 = canvas.split("/")
+    pre0 = canvas.replace("/" + spl0[-1], "")
+
+    spl1 = pCanvas.split("/")
+    pre1 = pCanvas.replace("/" + spl1[-1], "")
+
+    if pre0 == pre1:
+        return pCanvas
+    else:
+        return None
   else:
       return None
 
@@ -107,10 +119,21 @@ def getCanvasIdTop(data):
   return result
 
 for page in df:
-    print("page", page)
+    
     arr = df[page]["arr"]
 
+    '''
+    if page != "0035":
+        continue
+    '''
+
+    # print("page", page)
+
     for target in arr:
+        '''
+        if target != "NDL02":
+            continue
+        '''
 
         # print("attr", target)
 
@@ -159,6 +182,9 @@ for page in df:
         canvas_ids_top2 = [canvas_id_top]
 
         canvas_id_top_previous = getPreviousCanvas(canvas_id_top)
+
+        # print("canvas_id_top_previous", canvas_id_top_previous)
+
         if canvas_id_top_previous:
 
             # 類似が1位と2位のカンバスを使用する
@@ -194,9 +220,12 @@ for page in df:
 
         related[target] = arr2
 
+        '''
         with open(path, 'w') as outfile:
             json.dump(df3, outfile, ensure_ascii=False,
             indent=4, sort_keys=True, separators=(',', ': '))
+
+        '''
 
 
     # break

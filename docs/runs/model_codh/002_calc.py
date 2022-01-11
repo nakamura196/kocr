@@ -11,8 +11,7 @@ import argparse    # 1. argparseをインポート
 parser = argparse.ArgumentParser(description='このプログラムの説明（なくてもよい）')    # 2. パーサを作る
 
 # 3. parser.add_argumentで受け取る引数を追加していく
-parser.add_argument('id', help='foooo')
-parser.add_argument('attribution', help='foooo')
+parser.add_argument('id')
 
 args = parser.parse_args()    # 4. 引数を解析
 
@@ -22,8 +21,6 @@ args = parser.parse_args()    # 4. 引数を解析
 
 
 file_id = args.id
-
-attribution = args.attribution
 
 vol = int(file_id.split("-")[-1])
 

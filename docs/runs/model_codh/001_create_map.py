@@ -11,8 +11,9 @@ import argparse    # 1. argparseをインポート
 parser = argparse.ArgumentParser(description='このプログラムの説明（なくてもよい）')    # 2. パーサを作る
 
 # 3. parser.add_argumentで受け取る引数を追加していく
-parser.add_argument('id', help='foooo')
-parser.add_argument('attribution', help='foooo')
+parser.add_argument('id')
+parser.add_argument('attribution')
+parser.add_argument('name')
 
 args = parser.parse_args()    # 4. 引数を解析
 
@@ -23,7 +24,7 @@ file_id = args.id
 
 attribution = args.attribution
 
-
+name = args.name
 
 vol = int(file_id.split("-")[-1])
 
@@ -226,7 +227,8 @@ for selection in selections:
               "canvas" : canvasId,
               "koui" : [],
               "type" : "コマ",
-              "text": "\n".join(canvas_text_map[canvasId])
+              "text": "\n".join(canvas_text_map[canvasId]),
+              "name": name
           }
 
           index += 1

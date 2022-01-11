@@ -173,7 +173,8 @@ for page in test:
             "canvas" : obj["canvas"],
             "page" : obj["page"],
             "type" : obj["type"],
-            "image" : obj["image"]
+            "image" : obj["image"],
+            "name" : obj["name"]
         }
 
         if spl[0] == canvas_id:
