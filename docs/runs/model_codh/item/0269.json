@@ -20,7 +20,88 @@
     "next": "0270",
     "page": 269,
     "prev": "0263",
-    "related": {},
+    "related": {
+        "NDL02": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943181/canvas/28",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943181/F0000028/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/07.json",
+                "page": 28,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 7"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943182/canvas/2",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943182/F0000002/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/08.json",
+                "page": 2,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 8"
+            }
+        ],
+        "NDL03": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585105/canvas/3",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585105/F0000003/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/08.json",
+                "page": 3,
+                "type": "コマ",
+                "work": "[源氏物語]. [8]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585105/canvas/4",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585105/F0000004/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/08.json",
+                "page": 4,
+                "type": "コマ",
+                "work": "[源氏物語]. [8]"
+            }
+        ],
+        "NDL04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010879/canvas/29",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010879/F0000029/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/07.json",
+                "page": 29,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [7]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010880/canvas/2",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010880/F0000002/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/08.json",
+                "page": 2,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [8]"
+            }
+        ],
+        "京大本01": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/350",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0349.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/08.json",
+                "page": 3,
+                "type": "コマ",
+                "work": "花宴"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/351",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-0350.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/08.json",
+                "page": 4,
+                "type": "コマ",
+                "work": "花宴"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "08 花宴"
 }
