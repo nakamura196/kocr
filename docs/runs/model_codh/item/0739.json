@@ -156,6 +156,29 @@
                 "work": "源氏物語"
             }
         ],
+        "utokyo_l": [
+            {
+                "attribution": "東京大学文学部",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/860",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0859.tif/full/200,/0/default.jpg",
+                "line": "15",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "文学部国文学研究室所蔵本",
+                "page": 860,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "東京大学文学部",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/861",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0860.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "文学部国文学研究室所蔵本",
+                "page": 861,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ],
         "京大本01": [
             {
                 "attribution": "京都大学",
