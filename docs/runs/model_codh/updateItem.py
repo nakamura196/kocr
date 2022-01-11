@@ -165,7 +165,8 @@ for page in test:
             "manifest" : obj["manifest"],
             "canvas" : obj["canvas"],
             "page" : obj["page"],
-            "type" : obj["type"]
+            "type" : obj["type"],
+            "image" : obj["image"]
         }
 
         arr.insert(0, obj2)
