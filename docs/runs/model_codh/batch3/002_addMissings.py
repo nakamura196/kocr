@@ -24,12 +24,14 @@ arr = []
 for target in targets:
     files = glob.glob("../output/{}-*".format(target))
 
-    for file in files:
-        print(file)
+    arr.append("echo '{}'".format(target))
+
+    for file in sorted(files):
+        # print(file)
 
         id = file.split("/")[-1]
 
-        arr.append("python 001_create_map.py {} {} {}".format(id, map[id]["attribution"], map[id]["name"]))
+        arr.append("python 001_create_map.py '{}' '{}' '{}'".format(id, map[target]["attribution"], map[target]["name"]))
         arr.append("python 002_calc.py {}".format(id))
         arr.append("python 003_calc_line.py {}".format(id))
         arr.append("python updateItem.py {}".format(id))

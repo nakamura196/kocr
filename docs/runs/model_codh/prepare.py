@@ -87,11 +87,11 @@ for value in values:
 
   lines.append("echo '■■■ calc similarity'")
 
-  lines.append("python 001_create_map.py {} {} {}".format(value_id, metadata["attribution"], metadata["name"]))
+  lines.append("python 001_create_map.py '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"]))
   lines.append("python 002_calc.py {}".format(value_id))
   lines.append("python 003_calc_line.py {}".format(value_id))
   
-  lines.append("python updateUpdate.py {} {} {} {}".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
+  lines.append("python updateUpdate.py '{}' '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
   
   lines.append("python updateItem.py {}".format(value_id))
   

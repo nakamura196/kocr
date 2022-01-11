@@ -89,20 +89,22 @@
         ],
         "kyushu": [
             {
-                "attribution": "aaa",
+                "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411212/canvas/p27",
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411212/369790.tiff/full/200,/0/default.jpg",
                 "line": "05",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/15/manifest.json",
+                "name": "九州大学文学部 所蔵 源氏物語 古活字版",
                 "page": 27,
                 "type": "コマ",
                 "work": "九大本（古活字版）"
             },
             {
-                "attribution": "aaa",
+                "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411212/canvas/p28",
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411212/369791.tiff/full/200,/0/default.jpg",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/15/manifest.json",
+                "name": "九州大学文学部 所蔵 源氏物語 古活字版",
                 "page": 28,
                 "type": "コマ",
                 "work": "九大本（古活字版）"
@@ -110,20 +112,22 @@
         ],
         "kyushu_m": [
             {
-                "attribution": "aaa",
+                "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411279/canvas/p16",
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411279/373619.tiff/full/200,/0/default.jpg",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/15/manifest.json",
+                "name": "個人蔵 源氏物語 無跋無刊記整版本",
                 "page": 16,
                 "type": "コマ",
                 "work": "九大本（無跋無刊記整版本）"
             },
             {
-                "attribution": "aaa",
+                "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411279/canvas/p17",
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411279/373620.tiff/full/200,/0/default.jpg",
                 "line": "06",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/15/manifest.json",
+                "name": "個人蔵 源氏物語 無跋無刊記整版本",
                 "page": 17,
                 "type": "コマ",
                 "work": "九大本（無跋無刊記整版本）"
@@ -131,20 +135,22 @@
         ],
         "nijl_s": [
             {
-                "attribution": "aaa",
+                "attribution": "国文学研究資料館",
                 "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00681",
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00681.tif/full/200,/0/default.jpg",
                 "line": "11",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "name": "正徹本",
                 "page": 682,
                 "type": "コマ",
                 "work": "源氏物語"
             },
             {
-                "attribution": "aaa",
+                "attribution": "国文学研究資料館",
                 "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00682",
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00682.tif/full/200,/0/default.jpg",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "name": "正徹本",
                 "page": 683,
                 "type": "コマ",
                 "work": "源氏物語"
@@ -152,20 +158,22 @@
         ],
         "utokyo_l": [
             {
-                "attribution": "aaa",
+                "attribution": "東京大学文学部",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/632",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0631.tif/full/200,/0/default.jpg",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "文学部国文学研究室所蔵本",
                 "page": 632,
                 "type": "コマ",
                 "work": "源氏物語"
             },
             {
-                "attribution": "aaa",
+                "attribution": "東京大学文学部",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/633",
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0632.tif/full/200,/0/default.jpg",
                 "line": "04",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "文学部国文学研究室所蔵本",
                 "page": 633,
                 "type": "コマ",
                 "work": "源氏物語"
