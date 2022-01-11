@@ -133,6 +133,29 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "lc": [
+            {
+                "attribution": "米国議会図書館",
+                "canvas": "https://tile.loc.gov/image-services/iiif/service:asian:asianscd:2008427768v1:0010",
+                "image": "https://tile.loc.gov/storage-services/service/asian/asianscd/2008427768v1/0010.gif",
+                "line": "02",
+                "manifest": "https://www.loc.gov/item/2008427768/manifest.json",
+                "name": "米国議会図書館本",
+                "page": 10,
+                "type": "コマ",
+                "work": "Genji monogatari."
+            },
+            {
+                "attribution": "米国議会図書館",
+                "canvas": "https://tile.loc.gov/image-services/iiif/service:asian:asianscd:2008427768v1:0011",
+                "image": "https://tile.loc.gov/storage-services/service/asian/asianscd/2008427768v1/0011.gif",
+                "manifest": "https://www.loc.gov/item/2008427768/manifest.json",
+                "name": "米国議会図書館本",
+                "page": 11,
+                "type": "コマ",
+                "work": "Genji monogatari."
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
