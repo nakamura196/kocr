@@ -1,32 +1,59 @@
 {
-    "858": {
-        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6",
-        "canvas_ids_topX": [
-            "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7",
-            "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6",
+    "857": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p4",
+        "koui_lines": "行ゑなき空にけちてよかゝり火のたよりにたくふけふりとならはひとのあ",
+        "predictCanvases": [
             "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p5"
         ],
-        "koui_lines": "るましきものなれはにやこの君たちを人しれすめにもみゝにもとゝめ給へとか",
         "scores_top5": [
             [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7#line=01",
-                0.6233766233766234
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p5#line=01",
+                0.41558441558441556
             ],
             [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6#line=09",
-                0.2857142857142857
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p4#line=07",
+                0.3561643835616438
             ],
             [
                 "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p5#line=07",
-                0.25641025641025633
+                0.31168831168831174
             ],
             [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6#line=05",
-                0.2307692307692308
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p4#line=05",
+                0.2666666666666667
             ],
             [
-                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p5#line=06",
-                0.2307692307692308
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p4#line=01",
+                0.25974025974025977
+            ]
+        ]
+    },
+    "858": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6",
+        "koui_lines": "るましきものなれはにやこの君たちを人しれすめにもみゝにもとゝめ給へとか",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7#line=01",
+                0.5454545454545454
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6#line=09",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p6#line=10",
+                0.25974025974025977
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7#line=02",
+                0.2337662337662337
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411229/canvas/p7#line=04",
+                0.2337662337662337
             ]
         ]
     }

@@ -78,7 +78,8 @@ for attribution in map:
 
     for vol in vols:
 
-        if vol != 1:
+        if vol != conf_vol:
+            # pass
             continue
 
         # print(vol)
@@ -138,9 +139,7 @@ for id in result:
 
         score_sorted = sorted(obj.items(), key=lambda x:x[1], reverse=True)
 
-        print(score_sorted)
-
-        
+        # print("score_sorted", score_sorted)
 
         a = []
 
@@ -151,7 +150,7 @@ for id in result:
 
         from statistics import mean
         m = mean(a)
-        print(m)
+        # print("平均", m)
 
         import numpy as np
         np.histogram(a)
@@ -160,25 +159,21 @@ for id in result:
         bins = 100
         hist, bins = np.histogram(a, bins=bins, range=(m, a[0]))
 
-        print(hist)
-        print(bins)
-
         th_v = (a[0] + m) / 2
 
-        print(th_v)
+        # print("閾値", th_v)
 
         for i in range(0, len(score_sorted)):
             obj2 = score_sorted[i]
             score = obj2[1]
 
             if score > th_v:
-                print(obj2)
-                print(idCanvas[obj2[0]])
-
                 arr.append({
                     "id" : obj2[0],
                     "score" : obj2[1],
-                    "canvas" : idCanvas[obj2[0]]
+                    "canvas" : idCanvas[obj2[0]],
+                    "over_th_v" : score > th_v,
+                    "th_v" : th_v
                 })
             
         '''

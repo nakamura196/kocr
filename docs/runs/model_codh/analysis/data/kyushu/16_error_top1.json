@@ -1,1 +1,31 @@
-{}
+{
+    "549": {
+        "answer_canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p4",
+        "koui_lines": "こし心をきてとしころはおほしけれと色にもいたし給はすむかしのやうにこそ",
+        "predictCanvases": [
+            "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p5"
+        ],
+        "scores_top5": [
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p5#line=01",
+                0.40506329113924056
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p5#line=05",
+                0.31325301204819284
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p4#line=04",
+                0.31168831168831174
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p4#line=01",
+                0.30379746835443044
+            ],
+            [
+                "https://catalog.lib.kyushu-u.ac.jp/image/411213/canvas/p5#line=03",
+                0.2857142857142857
+            ]
+        ]
+    }
+}

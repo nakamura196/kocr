@@ -137,20 +137,58 @@ def getPreviousCanvas(canvas):
 error_top1 = {}
 error_topX = {}
 
+def getCanvasIdTop(data):
+  if(len(data) == 1):
+    return data[0]["canvas"]
+  else:
+    result = None
+    canvases = []
+    for obj in data:
+      canvases.append(obj["canvas"])
+
+    for i in range(len(canvases) - 1):
+      currentCanvas = canvases[i]
+      # print("currentCanvas", currentCanvas)
+      # スコアが次点のカンバス
+      nextCanvas = canvases[i+1]
+
+      # print(getPreviousCanvas(currentCanvas), nextCanvas)
+
+      # 一位のカンバスの前のカンバスが、カンバスの並びの次のアイテムの場合
+      if getPreviousCanvas(currentCanvas) == nextCanvas:
+        # return currentCanvas
+        # continue
+
+        result = nextCanvas
+
+      else:
+        return currentCanvas
+      
+        # result = 
+
+
+  return result
+
 for page in test:
   # print("page", page, )
 
   # 類似度の高い先頭トップcanvas
   # canvases = test[page][0:1]
 
-  canvas_id_top = test[page][0]["canvas"]
+  canvas_id_top = getCanvasIdTop(test[page]) # test[page][0]["canvas"]
   # print("canvas_id_top", canvas_id_top)
+  
+  
   canvas_id_top_previous = getPreviousCanvas(canvas_id_top)
+
+  # 類似が1位と2位のカンバスを使用する
   canvas_ids_top2 = [canvas_id_top, canvas_id_top_previous]
 
+  '''
   if window > 2:
     canvas_id_top_previous2 = getPreviousCanvas(canvas_id_top_previous)
     canvas_ids_top2.append(canvas_id_top_previous2)
+  '''
 
   # 校異源氏物語の1行目
   # 文字数が少ない場合には、2行目も追加？
@@ -159,14 +197,34 @@ for page in test:
   # <!-- 計算開始 -->
   scores = {}
 
+  def getLine(labels, i, size):
+    line2 = ""
+    flg = True
+    while flg:
+      line2 += labels[i]
+
+      if len(line2) > size:
+        flg = False
+
+      if len(labels) - 1 == i:
+        flg = False
+
+    return line2
+
   for canvas_id in canvas_ids_top2:
     if canvas_id not in canvas_labels:
       continue
     labels = canvas_labels[canvas_id]
     for i in range(len(labels) - 1):
-      canvas_lines = labels[i:i+2]
+      # canvas_lines = labels[i:i+2]
+      canvas_lines = labels[i:i+1]
 
-      line = "".join(canvas_lines)
+      # line = "".join(canvas_lines)
+
+      # 文字の長さが揃うように修正
+      line = getLine(labels, i, len(koui_2_lines))
+
+      # print("文字数 koui", len(koui_2_lines), "九州", len(line))
 
       ratio = Levenshtein.ratio(koui_2_lines, line)
       scores[canvas_id+"#line=" + str(i+1).zfill(2)] = ratio
@@ -177,14 +235,15 @@ for page in test:
 
   line_top = score_sorted[0][0]
 
-  print("line_top", line_top)
-  print("line_prev", testLineArray[testLineArray.index(line_top) - 1])
-  print("---")
+  # print("line_top", line_top)
+  # print("line_prev", testLineArray[testLineArray.index(line_top) - 1])
+  # print("---")
 
   canvas_id_top = line_top.split("#line=")[0]
-  canvas_id_to_by_prev_line = testLineArray[testLineArray.index(line_top) - 1].split("#line=")[0]
+  # canvas_id_to_by_prev_line = testLineArray[testLineArray.index(line_top) - 1].split("#line=")[0]
 
-  predictCanvases = [canvas_id_top, canvas_id_to_by_prev_line]
+  # predictCanvases = [canvas_id_top, canvas_id_to_by_prev_line] # [canvas_id_top, canvas_id_to_by_prev_line]
+  predictCanvases = [canvas_id_top] # [canvas_id_top, canvas_id_to_by_prev_line]
 
   answer_canvas = answers[page]
 
@@ -206,7 +265,7 @@ for page in test:
           "koui_lines": koui_2_lines,
           "scores_top5" : score_sorted[0:5],
           "answer_canvas" : answer_canvas,
-          "canvas_ids_topX": predictCanvases
+          "predictCanvases": predictCanvases
       }
 
   
