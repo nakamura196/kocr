@@ -123,6 +123,10 @@ def getTestData():
 
 test, canvas_labels, testLineArray, canvas_map, canvas_list = getTestData()
 
+path = root + "/output/{}/line.json".format(file_id)
+with open(path) as f:
+  lineMap = json.load(f)
+
 for page in test:
   # print("page", page)
 
@@ -155,6 +159,9 @@ for page in test:
     # 類似が1位と2位のカンバスを使用する
     canvas_ids_top2.append(canvas_id_top_previous)
 
+  line_id = lineMap[page_f]
+  spl = line_id.split("#line=")
+
   for canvas_id in canvas_ids_top2:
       if canvas_id in canvas_map:
         obj = canvas_map[canvas_id]
@@ -168,6 +175,9 @@ for page in test:
             "type" : obj["type"],
             "image" : obj["image"]
         }
+
+        if spl[0] == canvas_id:
+          obj2["line"] = spl[1]
 
         arr.insert(0, obj2)
 

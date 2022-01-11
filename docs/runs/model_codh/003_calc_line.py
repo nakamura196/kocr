@@ -52,7 +52,7 @@ def getLines():
 
 lines = getLines()
 
-
+canvas_list = None
 
 def getTestData():
 
@@ -109,8 +109,6 @@ correctTop2 = 0
 # 1ページあたりの文字数で動的に変更
 window = 3
 
-canvas_list = None
-
 def getPreviousCanvas(canvas): # , delimiter="p"
   '''
   spl = canvas.split("/" + delimiter)
@@ -121,7 +119,6 @@ def getPreviousCanvas(canvas): # , delimiter="p"
   index = canvas_list.index(canvas)
   
   if index > 0:
-
     return canvas_list[index - 1]
   else:
       return None
@@ -160,6 +157,8 @@ def getCanvasIdTop(data):
 
 
   return result
+
+result = {}
 
 for page in test:
   # print("page", page, )
@@ -227,5 +226,12 @@ for page in test:
 
   line_top = score_sorted[0][0]
 
-  print(line_top)
+  result[str(page).zfill(4)] = line_top
+
+  # print(line_top)
   
+opath = root + "/output/{}/line.json".format(file_id)
+
+with open(opath, 'w') as outfile:
+    json.dump(result, outfile, ensure_ascii=False,
+            indent=4, sort_keys=True, separators=(',', ': '))
