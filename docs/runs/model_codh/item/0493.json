@@ -2,7 +2,26 @@
     "canvas": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/56",
     "manifest": "https://www.dl.ndl.go.jp/api/iiif/3437687/manifest.json",
     "page": 493,
-    "related": {},
+    "related": {
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00639",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 640,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00640",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 641,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "14 澪標"
 }

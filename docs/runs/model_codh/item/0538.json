@@ -2,7 +2,26 @@
     "canvas": "https://www.dl.ndl.go.jp/api/iiif/3437687/canvas/79",
     "manifest": "https://www.dl.ndl.go.jp/api/iiif/3437687/manifest.json",
     "page": 538,
-    "related": {},
+    "related": {
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00687",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 688,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00688",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 689,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "15 蓬生"
 }
