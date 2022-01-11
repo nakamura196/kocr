@@ -18,7 +18,28 @@
     ],
     "manifest": "https://www.dl.ndl.go.jp/api/iiif/3437686/manifest.json",
     "page": 25,
-    "related": {},
+    "related": {
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00032",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00032.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 33,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00033",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00033.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 34,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ]
+    },
     "type": "ページ",
     "vol_str": "01 桐壺"
 }
