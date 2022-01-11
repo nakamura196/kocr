@@ -12,7 +12,7 @@ with open(koui_path) as f:
         with open(item_path) as f:
             obj2 = json.load(f)
 
-        obj2["image"] = obj["image"]
+        del obj2["image"]
         obj2["label"] = obj["label"]
 
         with open(item_path, 'w') as outfile:
