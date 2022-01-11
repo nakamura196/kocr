@@ -61,4 +61,5 @@ echo "算出"
 # 算出
 python 001_create_map.py $ID aaa
 python 002_calc.py $ID aaa
+python 003_calc_line.py $ID aaa
 python updateItem.py $ID

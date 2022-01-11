@@ -81,11 +81,54 @@
                 "work": "[源氏物語] 54巻. [23]"
             }
         ],
+        "kyushu": [
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411223/canvas/p16",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411223/370201.tiff/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/23/manifest.json",
+                "page": 16,
+                "type": "コマ",
+                "work": "九大本（古活字版）"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411223/canvas/p17",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411223/370202.tiff/full/200,/0/default.jpg",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/23/manifest.json",
+                "page": 17,
+                "type": "コマ",
+                "work": "九大本（古活字版）"
+            }
+        ],
+        "kyushu_m": [
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p19",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411287/374062.tiff/full/200,/0/default.jpg",
+                "line": "07",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/23/manifest.json",
+                "page": 19,
+                "type": "コマ",
+                "work": "九大本（無跋無刊記整版本）"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411287/canvas/p20",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411287/374063.tiff/full/200,/0/default.jpg",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/23/manifest.json",
+                "page": 20,
+                "type": "コマ",
+                "work": "九大本（無跋無刊記整版本）"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "aaa",
                 "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00939",
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00939.tif/full/200,/0/default.jpg",
+                "line": "11",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
                 "page": 940,
                 "type": "コマ",
@@ -97,6 +140,27 @@
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00940.tif/full/200,/0/default.jpg",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
                 "page": 941,
+                "type": "コマ",
+                "work": "源氏物語"
+            }
+        ],
+        "utokyo_l": [
+            {
+                "attribution": "aaa",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/899",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0898.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "page": 899,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/900",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-0899.tif/full/200,/0/default.jpg",
+                "line": "04",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "page": 900,
                 "type": "コマ",
                 "work": "源氏物語"
             }

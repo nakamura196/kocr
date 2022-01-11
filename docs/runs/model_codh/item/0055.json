@@ -81,22 +81,67 @@
                 "work": "[源氏物語] 54巻. [2]"
             }
         ],
+        "kyushu": [
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411194/canvas/p42",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411194/368919.tiff/full/200,/0/default.jpg",
+                "line": "04",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/02/manifest.json",
+                "page": 42,
+                "type": "コマ",
+                "work": "九大本（古活字版）"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411194/canvas/p43",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411194/368920.tiff/full/200,/0/default.jpg",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/02/manifest.json",
+                "page": 43,
+                "type": "コマ",
+                "work": "九大本（古活字版）"
+            }
+        ],
         "kyushu_m": [
             {
-                "attribution": "九州大学",
+                "attribution": "aaa",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411266/canvas/p47",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411266/372748.tiff/full/200,/0/default.jpg",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/02/manifest.json",
                 "page": 47,
                 "type": "コマ",
                 "work": "九大本（無跋無刊記整版本）"
             },
             {
-                "attribution": "九州大学",
+                "attribution": "aaa",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411266/canvas/p48",
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411266/372749.tiff/full/200,/0/default.jpg",
+                "line": "03",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/02/manifest.json",
                 "page": 48,
                 "type": "コマ",
                 "work": "九大本（無跋無刊記整版本）"
+            }
+        ],
+        "nijl_s": [
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00071",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00071.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 72,
+                "type": "コマ",
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "aaa",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/00072",
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_00072.tif/full/200,/0/default.jpg",
+                "line": "03",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "page": 73,
+                "type": "コマ",
+                "work": "源氏物語"
             }
         ],
         "京大本01": [
