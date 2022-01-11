@@ -30,7 +30,7 @@ if [ -n "$END" ]; then
   END="-e $END"
 fi
 
-if [ -e output/$ID/text.json ]; then
+if [ -e output/$ID/text.json.gzip ]; then
   echo "すでに結果が存在するため、本処理を終了します。"
   exit 1
 fi
