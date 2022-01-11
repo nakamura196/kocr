@@ -9,14 +9,11 @@ with open(koui_path) as f:
 
         item_path = "../item/" + page + ".json"
 
-        obj2 = {
-            "vol_str" : obj["vol_str"],
-            "page" : obj["page"],
-            "type" : obj["type"],
-            "manifest" : obj["manifest"],
-            "canvas" : obj["canvas"],
-            "related" : {}
-        }
+        with open(item_path) as f:
+            obj2 = json.load(f)
+
+        obj2["image"] = obj["image"]
+        obj2["label"] = obj["label"]
 
         with open(item_path, 'w') as outfile:
             json.dump(obj2, outfile, ensure_ascii=False,
