@@ -168,6 +168,33 @@
                 "work": "〔源氏物語〕. はゝき木"
             }
         ],
+        "ndl05": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585099/canvas/38",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585099/F0000038/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585099/manifest.json",
+                "name": "東久邇宮家旧蔵",
+                "page": 38,
+                "type": "コマ",
+                "vol": 2,
+                "work": "[源氏物語]. [2]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585099/canvas/39",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585099/F0000039/full/full/0/default.jpg",
+                "line": "03",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585099/manifest.json",
+                "name": "東久邇宮家旧蔵",
+                "page": 39,
+                "type": "コマ",
+                "vol": 2,
+                "work": "[源氏物語]. [2]"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
