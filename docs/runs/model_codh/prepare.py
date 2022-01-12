@@ -9,11 +9,13 @@ parser = argparse.ArgumentParser(description='このプログラムの説明（�
 # 3. parser.add_argumentで受け取る引数を追加していく
 parser.add_argument('id')
 parser.add_argument('password')
+parser.add_argument('--reverse', "-r", default=False, type=bool)
 
 args = parser.parse_args()    # 4. 引数を解析
 
 id = args.id
 password = args.password
+reverse = args.reverse
 
 args = parser.parse_args()    # 4. 引数を解析
 
@@ -47,7 +49,12 @@ for obj in df:
 lines = []
 lines.append("set -e")
 
-for value in values:
+for i in range(len(values)):
+  value = values[i]
+
+  if reverse:
+    value = values[len(values) - i]
+
   if value["start"] == "-1" or value["end"] == "-1":
     continue
   

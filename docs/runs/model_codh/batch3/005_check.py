@@ -17,13 +17,13 @@ for target in targets:
 
         text = str(df)
 
-        if "ててて" in text:
+        if "ししし" in text:
             # print(file)
 
             path = os.path.dirname(file)
             print(path)
 
-            shutil.rmtree(path)
+            # shutil.rmtree(path)
 
 
     

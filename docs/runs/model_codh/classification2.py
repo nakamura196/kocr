@@ -146,7 +146,7 @@ for c in tqdm(range(len(canvas_list))):
 
     w, h = base_img.size
 
-    r = int(w / obj["width"])
+    r = w / obj["width"]
 
     for member_id in obj["map"]:
         index += 1
