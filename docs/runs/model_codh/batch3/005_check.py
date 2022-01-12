@@ -2,6 +2,7 @@ import json
 import glob
 import os
 import gzip
+import shutil
 
 targets = ["lc", "kyushu", "kyushu_m", "nijl_s", "utokyo_l", "ocha", "tsukuba"]
 
@@ -17,7 +18,12 @@ for target in targets:
         text = str(df)
 
         if "ててて" in text:
-            print(file)
-            
+            # print(file)
+
+            path = os.path.dirname(file)
+            print(path)
+
+            shutil.rmtree(path)
+
 
     
