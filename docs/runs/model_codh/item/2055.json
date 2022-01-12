@@ -107,6 +107,33 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "ndl04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288328/canvas/1",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288328/F0000001/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288328/manifest.json",
+                "name": "古活字版",
+                "page": 1,
+                "type": "コマ",
+                "vol": 54,
+                "work": "〔源氏物語〕. 夢のうき橋"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288328/canvas/2",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288328/F0000002/full/full/0/default.jpg",
+                "line": "02",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288328/manifest.json",
+                "name": "古活字版",
+                "page": 2,
+                "type": "コマ",
+                "vol": 54,
+                "work": "〔源氏物語〕. 夢のうき橋"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
