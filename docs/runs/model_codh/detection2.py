@@ -97,8 +97,11 @@ for c in tqdm(range(len(canvases))):
 
     tmp_path = "output/{}/detection/{}.jpg".format(item_id, str(c + 1).zfill(4))
 
+    print("a")
+
     # 壊れている場合
     try:
+        print("b")
         img = Image.open(tmp_path)
         w, h = img.size
 
@@ -111,7 +114,10 @@ for c in tqdm(range(len(canvases))):
         os.remove(tmp_path)
         print(e)
 
+    print("c")
+
     if not os.path.exists(tmp_path):
+        print("d")
 
         os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
 
@@ -119,6 +125,7 @@ for c in tqdm(range(len(canvases))):
         flg = True
         while flg:
             try:
+                print("e")
                 opener=request.build_opener()
                 opener.addheaders=[('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36')]
                 request.install_opener(opener)
@@ -128,6 +135,7 @@ for c in tqdm(range(len(canvases))):
                 os.remove(tmp_path)
                 print(e)
 
+    print("f")
     img = Image.open(tmp_path)
 
     w, h = img.size
