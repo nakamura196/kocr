@@ -221,23 +221,27 @@
         "tsukuba": [
             {
                 "attribution": "筑波大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/31",
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-0030.tif/full/200,/0/default.jpg",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/14",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-0013.tif/full/200,/0/default.jpg",
+                "line": "11",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100178296/manifest",
                 "name": "筑波大学所蔵本",
-                "page": 31,
+                "page": 14,
                 "type": "コマ",
+                "vol": 1,
                 "work": "源氏物語"
             },
             {
                 "attribution": "筑波大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/32",
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-0031.tif/full/200,/0/default.jpg",
-                "line": "14",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/15",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-0014.tif/full/200,/0/default.jpg",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100178296/manifest",
                 "name": "筑波大学所蔵本",
-                "page": 32,
+                "page": 15,
                 "type": "コマ",
+                "vol": 1,
                 "work": "源氏物語"
             }
         ],
