@@ -174,7 +174,9 @@ for page in test:
             "page" : obj["page"],
             "type" : obj["type"],
             "image" : obj["image"],
-            "name" : obj["name"]
+            "name" : obj["name"],
+            "vol" : obj["vol"],
+            "curation" : 1
         }
 
         if spl[0] == canvas_id:
