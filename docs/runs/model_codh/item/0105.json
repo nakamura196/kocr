@@ -141,6 +141,33 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "ndl04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288279/canvas/6",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288279/F0000006/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288279/manifest.json",
+                "name": "古活字版",
+                "page": 6,
+                "type": "コマ",
+                "vol": 4,
+                "work": "〔源氏物語〕. 夕かほ"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288279/canvas/7",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288279/F0000007/full/full/0/default.jpg",
+                "line": "08",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288279/manifest.json",
+                "name": "古活字版",
+                "page": 7,
+                "type": "コマ",
+                "vol": 4,
+                "work": "〔源氏物語〕. 夕かほ"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
