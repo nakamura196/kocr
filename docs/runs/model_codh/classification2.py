@@ -14,12 +14,22 @@ parser = argparse.ArgumentParser(description='このプログラムの説明（�
 
 # 3. parser.add_argumentで受け取る引数を追加していく
 parser.add_argument('id', help='foooo')
+parser.add_argument('--start', "-s", default=-1, type=int, help='foooo')
+parser.add_argument('--end', "-e", default=-1, type=int, help='foooo')
 
 args = parser.parse_args()    # 4. 引数を解析
 
 # url = args.url
 # id = "BD1000-002200_1" # args.id
 id = args.id # "genji_0001"
+
+# 開始と終了が指定されている場合
+s = args.start # "BD1000-002200_1"
+e = args.end # "BD1000-002200_1"
+
+if s > -1:
+    s = s - 1
+    e = e - 1
 
 imsize = (64, 64)
 
@@ -84,6 +94,9 @@ canvases = m["sequences"][0]["canvases"]
 
 for c in canvases:
     canvas_list.append(c["@id"])
+
+if s > -1:
+    canvas_list = canvas_list[s:e+1]
 
 canvases = {}
 

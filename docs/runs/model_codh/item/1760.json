@@ -91,22 +91,26 @@
             {
                 "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411258/canvas/p124",
+                "curation": 1,
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411258/372037.tiff/full/200,/0/default.jpg",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/49/manifest.json",
                 "name": "九州大学文学部 所蔵 源氏物語 古活字版",
                 "page": 124,
                 "type": "コマ",
+                "vol": 49,
                 "work": "九大本（古活字版）"
             },
             {
                 "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411258/canvas/p125",
+                "curation": 1,
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411258/372038.tiff/full/200,/0/default.jpg",
                 "line": "03",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/49/manifest.json",
                 "name": "九州大学文学部 所蔵 源氏物語 古活字版",
                 "page": 125,
                 "type": "コマ",
+                "vol": 49,
                 "work": "九大本（古活字版）"
             }
         ],
@@ -114,22 +118,26 @@
             {
                 "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411313/canvas/p115",
+                "curation": 1,
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411313/375906.tiff/full/200,/0/default.jpg",
                 "line": "05",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/49/manifest.json",
                 "name": "個人蔵 源氏物語 無跋無刊記整版本",
                 "page": 115,
                 "type": "コマ",
+                "vol": 49,
                 "work": "九大本（無跋無刊記整版本）"
             },
             {
                 "attribution": "九州大学",
                 "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411313/canvas/p116",
+                "curation": 1,
                 "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411313/375907.tiff/full/200,/0/default.jpg",
                 "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/49/manifest.json",
                 "name": "個人蔵 源氏物語 無跋無刊記整版本",
                 "page": 116,
                 "type": "コマ",
+                "vol": 49,
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
@@ -137,22 +145,26 @@
             {
                 "attribution": "国文学研究資料館",
                 "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/02069",
+                "curation": 1,
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_02069.tif/full/200,/0/default.jpg",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
                 "name": "正徹本",
                 "page": 2070,
                 "type": "コマ",
+                "vol": 49,
                 "work": "源氏物語"
             },
             {
                 "attribution": "国文学研究資料館",
                 "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/02070",
+                "curation": 1,
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_02070.tif/full/200,/0/default.jpg",
                 "line": "04",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
                 "name": "正徹本",
                 "page": 2071,
                 "type": "コマ",
+                "vol": 49,
                 "work": "源氏物語"
             }
         ],

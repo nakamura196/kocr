@@ -3,7 +3,7 @@ import glob
 import os
 import gzip
 
-targets = ["kyushu", "kyushu_m", "nijl_s", "utokyo_l"]
+targets = ["kyushu", "kyushu_m", "nijl_s", "utokyo_l", "lc"]
 
 file = "../metadata.json"
 
