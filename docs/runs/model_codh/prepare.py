@@ -74,7 +74,7 @@ for value in values:
   lines.append("python detection2.py {} {} {} {}".format(value["manifest"], value_id, start, end))
   
   lines.append("echo '■■■ classification'")
-  lines.append("python classification2.py {}".format(value_id))
+  lines.append("python classification2.py {} {} {}".format(value_id, start, end))
 
   lines.append("echo '■■■ text'")
   lines.append("python text.py {}".format(value_id))
