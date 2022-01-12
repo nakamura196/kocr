@@ -75,6 +75,16 @@ def predict(img):
 json_open = open("output/{}/curation.json".format(id), 'r')
 curation = json.load(json_open)
 
+manifest = curation["selections"][0]["within"]["@id"]
+
+canvas_list = []
+
+m = requests.get(manifest).json()
+canvases = m["sequences"][0]["canvases"]
+
+for c in canvases:
+    canvas_list.append(c["@id"])
+
 canvases = {}
 
 for member in curation["selections"][0]["members"]:
@@ -96,20 +106,26 @@ result = {}
 
 index = 0
 
-c = 0
-
 print("Classifying words ...")
-for canvas in tqdm(canvases):
-    c += 1
+for c in tqdm(range(len(canvas_list))):
+    canvas = canvas_list[c]
+
     page = c + 1
+    
+    # detectionされなかったページ
+    if canvas not in canvases:
+        continue
+
     obj = canvases[canvas]
 
     r_size = obj["width"]
 
     tmp_path = "output/{}/detection/{}.jpg".format(id, str(page).zfill(4))
 
+    '''
     if not os.path.exists(tmp_path):
         continue
+    '''
     
     base_img = Image.open(tmp_path)
 
