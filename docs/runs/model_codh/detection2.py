@@ -121,7 +121,8 @@ for c in tqdm(range(len(canvases))):
                 request.urlretrieve(url, tmp_path)
                 flg = False
             except Exception as e:
-                os.remove(tmp_path)
+                if os.path.exists(tmp_path):
+                    os.remove(tmp_path)
                 print(e)
 
     img = Image.open(tmp_path)
