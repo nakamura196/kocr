@@ -101,6 +101,12 @@ for c in tqdm(range(len(canvases))):
     try:
         img = Image.open(tmp_path)
         w, h = img.size
+
+        # 長い辺
+        ll = max(w, h)
+
+        # 1024以下の場合がある
+        yolo_input_size = min(image_size, ll)
     except Exception as e:
         os.remove(tmp_path)
         print(e)
