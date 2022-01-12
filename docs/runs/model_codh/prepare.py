@@ -82,6 +82,9 @@ for value in values:
   lines.append("echo '■■■ gzip'")
   lines.append("python zsh.py {}".format(value_id))
 
+  lines.append("echo '■■■ unzip'")
+  lines.append("python unzip.py {}".format(value_id))
+
   lines.append("git pull")
 
 

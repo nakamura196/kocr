@@ -35,8 +35,6 @@ def load_image(img, xywh, r = 1):
     h = int(int(xywh[3]) * r)
     im_crop = img.crop((x, y, x+w, y+h))
 
-    
-
     img = im_crop.convert('RGB')
     # 学習時に、(64, 64, 3)で学習したので、画像の縦・横は今回 変数imsizeの(64, 64)にリサイズします。
     img = img.resize(imsize)
@@ -102,44 +100,27 @@ c = 0
 
 print("Classifying words ...")
 for canvas in tqdm(canvases):
-    # print(canvas)
-
+    c += 1
+    page = c + 1
     obj = canvases[canvas]
 
-    r_size = obj["width"] # 1024 * 3
+    r_size = obj["width"]
 
-    # url = obj["image"] + "/full/full/0/default.jpg"
-    # tmp_path = "output/{}/classification/{}.jpg".format(id, str(c + 1).zfill(4))
-    tmp_path = "output/{}/detection/{}.jpg".format(id, str(c + 1).zfill(4))
-    
-    c += 1
+    tmp_path = "output/{}/detection/{}.jpg".format(id, str(page).zfill(4))
 
     if not os.path.exists(tmp_path):
-        # url = obj["image"] + "/full/{},/0/default.jpg".format(r_size)
-        url = obj["image"]#  + "/full/full/0/default.jpg".format(r_size)
-
-        os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
-        request.urlretrieve(url, tmp_path)
+        continue
     
     base_img = Image.open(tmp_path)
 
     w, h = base_img.size
 
-    r = w / obj["width"]
+    r = int(w / obj["width"])
 
     for member_id in obj["map"]:
-
         index += 1
         
         xywh_str = member_id.split("=")[1]
-
-        '''
-        url = obj["image"] + "/{}/{},{}/0/default.jpg".format(xywh_str, 64, 64)
-        tmp_path = "output/{}/tmp.jpg".format(id)
-        os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
-        request.urlretrieve(url, tmp_path)
-        base_img = Image.open(tmp_path)
-        '''
 
         xywh = xywh_str.split(",")
         img_crop, im, x, y = load_image(base_img, xywh, r)
@@ -147,12 +128,10 @@ for canvas in tqdm(canvases):
         p = predict(img_crop)
         result[member_id]  = p
 
-        basename = "{}-{}-{}.jpg".format(p["marker"] + "_" + str(index).zfill(5), str(w-x).zfill(5), str(y).zfill(5))
+        basename = "{}-{}-{}-{}.jpg".format(str(page).zfill(4), p["marker"] + "_" + str(index).zfill(5), str(w-x).zfill(5), str(y).zfill(5))
         t_path = "output/{}/chars/{}".format(id, basename)
         os.makedirs(os.path.dirname(t_path), exist_ok=True)
         im.save(t_path)
-
-    # break
 
 for member in curation["selections"][0]["members"]:
     member_id = member["@id"]
