@@ -100,6 +100,7 @@ for c in tqdm(range(len(canvases))):
     # 壊れている場合
     try:
         img = Image.open(tmp_path)
+        w, h = img.size
     except Exception as e:
         os.remove(tmp_path)
         print(e)
