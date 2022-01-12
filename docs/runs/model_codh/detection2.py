@@ -97,14 +97,29 @@ for c in tqdm(range(len(canvases))):
 
     tmp_path = "output/{}/detection/{}.jpg".format(item_id, str(c + 1).zfill(4))
 
+    # 壊れている場合
+    try:
+        img = Image.open(tmp_path)
+    except Exception as e:
+        os.remove(tmp_path)
+        print(e)
+
     if not os.path.exists(tmp_path):
 
         os.makedirs(os.path.dirname(tmp_path), exist_ok=True)
 
-        opener=request.build_opener()
-        opener.addheaders=[('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36')]
-        request.install_opener(opener)
-        request.urlretrieve(url, tmp_path)
+        # ダウンロードが完了するまで繰り返し
+        flg = True
+        while flg:
+            try:
+                opener=request.build_opener()
+                opener.addheaders=[('User-Agent','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1941.0 Safari/537.36')]
+                request.install_opener(opener)
+                request.urlretrieve(url, tmp_path)
+                flg = False
+            except Exception as e:
+                os.remove(tmp_path)
+                print(e)
 
     img = Image.open(tmp_path)
 

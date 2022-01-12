@@ -19,7 +19,7 @@ args = parser.parse_args()    # 4. 引数を解析
 
 path = "metadata.json"
 
-if not os.path.exists(path):
+if True or not os.path.exists(path):
   df = requests.get("https://script.google.com/macros/s/AKfycbweFcBogWLgf7AyFboBOAnKxqeJr_cVQEk3PPODAEA5KBgr_rywx6IQm8ug5MS-A5F1/exec?sheet=all").json()
   with open(path, 'w') as outfile:
     json.dump(df, outfile, ensure_ascii=False,
