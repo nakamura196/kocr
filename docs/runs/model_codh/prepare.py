@@ -53,7 +53,7 @@ for i in range(len(values)):
   value = values[i]
 
   if reverse:
-    value = values[len(values) - i]
+    value = values[len(values) - i - 1]
 
   if value["start"] == "-1" or value["end"] == "-1":
     continue
