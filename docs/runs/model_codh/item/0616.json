@@ -141,6 +141,33 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "ndl05": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585116/canvas/56",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585116/F0000056/full/full/0/default.jpg",
+                "line": "01",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585116/manifest.json",
+                "name": "東久邇宮家旧蔵（国立国会図書館所蔵）",
+                "page": 56,
+                "type": "コマ",
+                "vol": 19,
+                "work": "[源氏物語]. [19]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585116/canvas/57",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585116/F0000057/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585116/manifest.json",
+                "name": "東久邇宮家旧蔵（国立国会図書館所蔵）",
+                "page": 57,
+                "type": "コマ",
+                "vol": 19,
+                "work": "[源氏物語]. [19]"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
