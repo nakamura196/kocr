@@ -222,6 +222,33 @@
                 "work": "[源氏物語]. [3]"
             }
         ],
+        "nijl_200000993": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200000993/canvas/99",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200000993/v4/image/110_0088/00000002/00000099.tif/full/200,/0/default.jpg",
+                "line": "18",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
+                "name": "200000993 国文学研究資料館所蔵本",
+                "page": 99,
+                "type": "コマ",
+                "vol": 3,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200000993/canvas/100",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200000993/v4/image/110_0088/00000002/00000100.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
+                "name": "200000993 国文学研究資料館所蔵本",
+                "page": 100,
+                "type": "コマ",
+                "vol": 3,
+                "work": "源氏物語"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
