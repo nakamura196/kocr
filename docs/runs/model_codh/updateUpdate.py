@@ -41,7 +41,8 @@ with open(path) as f:
     "user": user,
     "name" : name,
     "attribution" : attribution,
-    "vol": vol
+    "vol": vol,
+    "id": id
   })
 
 with open(path, 'w') as outfile:

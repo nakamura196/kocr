@@ -9,6 +9,7 @@ static/image0.jpg
 *.h5
 *.jpg
 docs/runs/model_codh/output/*/*.json
+docs/runs/model_codh/model/labels.json
 
 main.sh
 metadata.json
