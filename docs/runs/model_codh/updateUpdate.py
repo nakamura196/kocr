@@ -27,7 +27,7 @@ id = args.id # "genji_0001"
 spl = id.split("-")
 vol = int(spl[-1])
 vol_zfill = str(vol).zfill(2)
-target = id.split("-" + vol_zfill, "")
+target = id.replace("-" + vol_zfill, "")
 
 attribution = args.attribution
 name = args.name
