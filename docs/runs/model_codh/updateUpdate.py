@@ -24,7 +24,10 @@ args = parser.parse_args()    # 4. 引数を解析
 # id = "BD1000-002200_1" # args.id
 id = args.id # "genji_0001"
 
-vol = int(id.split("-")[-1])
+spl = id.split("-")
+vol = int(spl[-1])
+vol_zfill = str(vol).zfill(2)
+target = id.split("-" + vol_zfill, "")
 
 attribution = args.attribution
 name = args.name
@@ -44,6 +47,24 @@ with open(path) as f:
     "vol": vol,
     "id": id
   })
+
+with open(path, 'w') as outfile:
+  json.dump(df, outfile, ensure_ascii=False,
+  indent=4, sort_keys=True, separators=(',', ': '))
+
+#####
+
+path = "status.json"
+with open(path) as f:
+  df = json.load(f)
+
+  if target not in df:
+    df[target] = {}
+
+    for n in range(54):
+      df[target][str(n+1).zfill(2)] = 0
+
+  df[target][vol_zfill] = 1
 
 with open(path, 'w') as outfile:
   json.dump(df, outfile, ensure_ascii=False,

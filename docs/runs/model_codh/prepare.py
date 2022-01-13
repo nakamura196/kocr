@@ -49,6 +49,8 @@ for obj in df:
 lines = []
 lines.append("set -e")
 
+vols = []
+
 for i in range(len(values)):
   value = values[i]
 
@@ -120,6 +122,10 @@ for i in range(len(values)):
   lines.append("git commit /content/kocr/docs/runs/model_codh/output/{} -m 'add {} by google colab'".format(value_id, value_id))
   lines.append("git push origin main")
   
+  vols.append(value_id)
 
 with open("main.sh", mode='w') as f:
   f.write("\n".join(lines))
+
+print("values", vols)
+print("size", len(vols))

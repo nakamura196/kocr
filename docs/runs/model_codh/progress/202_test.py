@@ -27,6 +27,6 @@ for target in map:
     
     map2[target][str(vol).zfill(2)] = 1
 
-with open("status.json", 'w') as outfile:
+with open("../status.json", 'w') as outfile:
   json.dump(map2, outfile, ensure_ascii=False,
   indent=4, sort_keys=True, separators=(',', ': '))
