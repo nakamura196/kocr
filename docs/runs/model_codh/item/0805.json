@@ -67,6 +67,33 @@
                 "work": "[源氏物語] 54巻. [25]"
             }
         ],
+        "kogetsusho": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/915",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00916.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/25.json",
+                "name": "『湖月抄』鵜飼文庫（国文学研究資料館所蔵）",
+                "page": 2,
+                "type": "コマ",
+                "vol": 25,
+                "work": "蛍"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/916",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00917.tif/full/200,/0/default.jpg",
+                "line": "08",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/25.json",
+                "name": "『湖月抄』鵜飼文庫（国文学研究資料館所蔵）",
+                "page": 3,
+                "type": "コマ",
+                "vol": 25,
+                "work": "蛍"
+            }
+        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
