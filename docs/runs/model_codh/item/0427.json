@@ -168,6 +168,33 @@
                 "work": "〔源氏物語〕. すま"
             }
         ],
+        "ndl05": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585109/canvas/50",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585109/F0000050/full/full/0/default.jpg",
+                "line": "11",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585109/manifest.json",
+                "name": "東久邇宮家旧蔵",
+                "page": 50,
+                "type": "コマ",
+                "vol": 12,
+                "work": "[源氏物語]. [12]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585109/canvas/51",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585109/F0000051/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585109/manifest.json",
+                "name": "東久邇宮家旧蔵",
+                "page": 51,
+                "type": "コマ",
+                "vol": 12,
+                "work": "[源氏物語]. [12]"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
