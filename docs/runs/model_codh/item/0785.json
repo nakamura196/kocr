@@ -87,6 +87,33 @@
                 "work": "[源氏物語] 54巻. [24]"
             }
         ],
+        "kogetsusho": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/893",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00894.tif/full/200,/0/default.jpg",
+                "line": "14",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/24.json",
+                "name": "『湖月抄』鵜飼文庫（国文学研究資料館所蔵）",
+                "page": 9,
+                "type": "コマ",
+                "vol": 24,
+                "work": "胡蝶"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/894",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-00895.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/24.json",
+                "name": "『湖月抄』鵜飼文庫（国文学研究資料館所蔵）",
+                "page": 10,
+                "type": "コマ",
+                "vol": 24,
+                "work": "胡蝶"
+            }
+        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
