@@ -141,6 +141,33 @@
                 "work": "九大本（無跋無刊記整版本）"
             }
         ],
+        "ndl04": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288304/canvas/26",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288304/F0000026/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288304/manifest.json",
+                "name": "古活字版",
+                "page": 26,
+                "type": "コマ",
+                "vol": 29,
+                "work": "〔源氏物語〕. みゆき"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288304/canvas/27",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288304/F0000027/full/full/0/default.jpg",
+                "line": "01",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288304/manifest.json",
+                "name": "古活字版",
+                "page": 27,
+                "type": "コマ",
+                "vol": 29,
+                "work": "〔源氏物語〕. みゆき"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
