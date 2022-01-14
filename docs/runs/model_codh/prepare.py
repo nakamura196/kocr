@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser(description='このプログラムの説明（�
 parser.add_argument('id')
 parser.add_argument('password')
 parser.add_argument('--reverse', "-r", default=False, type=bool)
+parser.add_argument('--collection', "-c", default="https://script.google.com/macros/s/AKfycbweFcBogWLgf7AyFboBOAnKxqeJr_cVQEk3PPODAEA5KBgr_rywx6IQm8ug5MS-A5F1/exec?sheet=all")
 
 args = parser.parse_args()    # 4. 引数を解析
 
@@ -21,8 +22,14 @@ args = parser.parse_args()    # 4. 引数を解析
 
 path = "metadata.json"
 
+# https://script.google.com/macros/s/AKfycbzUlQNDl1bFELLXTuiY50nOvi60-g3QksBKKrMHuGtXOvkwZs_XnmETk2vW9Qc_fEFeIw/exec
+
+gas_url = args.collection
+# print(gas_url)
+# gas_url = "https://script.google.com/macros/s/AKfycbzUlQNDl1bFELLXTuiY50nOvi60-g3QksBKKrMHuGtXOvkwZs_XnmETk2vW9Qc_fEFeIw/exec?sheet=all"
+
 if True or not os.path.exists(path):
-  df = requests.get("https://script.google.com/macros/s/AKfycbweFcBogWLgf7AyFboBOAnKxqeJr_cVQEk3PPODAEA5KBgr_rywx6IQm8ug5MS-A5F1/exec?sheet=all").json()
+  df = requests.get(gas_url).json()
   with open(path, 'w') as outfile:
     json.dump(df, outfile, ensure_ascii=False,
     indent=4, sort_keys=True, separators=(',', ': '))
