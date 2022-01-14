@@ -76,6 +76,12 @@ for i in range(len(values)):
   end = "-e {}".format(value["end"]) if value["end"] != "" else ""
   # lines.append("sh ocr.sh {} {} {} {}".format(value["manifest"], value_id, start, end))
   
+  # git first
+  lines.append("git config --global user.email 'na.kamura.1263@gmail.com'")
+  lines.append("git config --global user.name '{}'".format(metadata["user"]))
+  lines.append("git remote set-url origin https://nakamura196:{}@github.com/nakamura196/kocr.git".format(password))
+  
+
   lines.append("echo '■■■ {}'".format(value_id))
   
   
@@ -111,9 +117,6 @@ for i in range(len(values)):
   lines.append("python updateUpdate.py '{}' '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
   
   lines.append("echo '■■■ git'")
-  lines.append("git config --global user.email 'na.kamura.1263@gmail.com'")
-  lines.append("git config --global user.name '{}'".format(metadata["user"]))
-  lines.append("git remote set-url origin https://nakamura196:{}@github.com/nakamura196/kocr.git".format(password))
   lines.append("git pull")
 
   lines.append("git add /content/kocr/docs/runs/model_codh/output/{}".format(value_id))
