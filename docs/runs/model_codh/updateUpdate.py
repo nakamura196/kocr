@@ -33,7 +33,7 @@ attribution = args.attribution
 name = args.name
 user = args.user
 
-path = "update.json"
+path = "data/update.json"
 with open(path) as f:
   df = json.load(f)
 
@@ -54,7 +54,7 @@ with open(path, 'w') as outfile:
 
 #####
 
-path = "status.json"
+path = "data/status.json"
 with open(path) as f:
   df = json.load(f)
 
