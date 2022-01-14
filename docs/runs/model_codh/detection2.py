@@ -92,10 +92,13 @@ for c in tqdm(range(len(canvases))):
 
     c_width = canvas["width"]
     c_height = canvas["height"]
-    
-    # url = canvas["images"][0]["resource"]["service"]["@id"] + "/full/1024,/0/default.jpg"
-    url = canvas["images"][0]["resource"]["@id"]
-    # print(url)
+
+    res = canvas["images"][0]["resource"]
+
+    if "service" in res:
+        url = res["service"]["@id"] + "/full/1024,/0/default.jpg"
+    else:
+        url = res["@id"]
 
     tmp_path = "output/{}/detection/{}.jpg".format(item_id, str(c + 1).zfill(4))
 
