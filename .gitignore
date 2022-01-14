@@ -11,5 +11,9 @@ static/image0.jpg
 docs/runs/model_codh/output/*/*.json
 docs/runs/model_codh/model/labels.json
 
+docs/runs/model_codh/metadata.json
+docs/runs/model_codh/status.json
+docs/runs/model_codh/update.json
+
 main.sh
 tmp.sh
