@@ -2,10 +2,10 @@ import glob
 import json
 import pandas as pd
 
-with open("map.json") as f:
+with open("keyPageMap.json") as f:
   map = json.load(f)
 
-with open("data.json") as f:
+with open("volPageMap.json") as f:
   data = json.load(f)
 
   pageVolMap = {}
@@ -27,6 +27,6 @@ for target in map:
     
     map2[target][str(vol).zfill(2)] = 1
 
-with open("../status.json", 'w') as outfile:
+with open("../data/status.json", 'w') as outfile:
   json.dump(map2, outfile, ensure_ascii=False,
   indent=4, sort_keys=True, separators=(',', ': '))

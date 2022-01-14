@@ -46,6 +46,6 @@ for vol in vols:
   answerVolMap[conf_vol] = answers
 
 
-with open("data.json", 'w') as outfile:
+with open("volPageMap.json", 'w') as outfile:
     json.dump(answerVolMap, outfile, ensure_ascii=False,
     indent=4, sort_keys=True, separators=(',', ': '))

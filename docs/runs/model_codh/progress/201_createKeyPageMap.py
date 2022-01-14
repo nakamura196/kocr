@@ -22,6 +22,6 @@ for file in files:
 for key in map:
   map[key] = sorted(map[key])
 
-with open("map.json", 'w') as outfile:
+with open("keyPageMap.json", 'w') as outfile:
     json.dump(map, outfile, ensure_ascii=False,
     indent=4, sort_keys=True, separators=(',', ': '))
