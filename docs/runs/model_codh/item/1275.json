@@ -77,6 +77,33 @@
                 "work": "[源氏物語] 54巻. [37]"
             }
         ],
+        "kyoto03": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/1749",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-1748.tif/full/200,/0/default.jpg",
+                "line": "18",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
+                "name": "平松家本 11-2 （京都大学所蔵）",
+                "page": 1749,
+                "type": "コマ",
+                "vol": 37,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/1750",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-1749.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
+                "name": "平松家本 11-2 （京都大学所蔵）",
+                "page": 1750,
+                "type": "コマ",
+                "vol": 37,
+                "work": "源氏物語"
+            }
+        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
