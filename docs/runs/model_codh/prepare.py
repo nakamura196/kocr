@@ -115,14 +115,16 @@ for i in range(len(values)):
   lines.append("git config --global user.name '{}'".format(metadata["user"]))
   lines.append("git remote set-url origin https://nakamura196:{}@github.com/nakamura196/kocr.git".format(password))
   lines.append("git pull")
-  
-
 
   lines.append("git add /content/kocr/docs/runs/model_codh/output/{}".format(value_id))
-  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/status.json /content/kocr/docs/runs/model_codh/update.json -m 'update item with {} by google colab'".format(value_id))
   lines.append("git commit /content/kocr/docs/runs/model_codh/output/{} -m 'add {} by google colab'".format(value_id, value_id))
   lines.append("git push origin main")
-  
+
+  # 後回し
+  lines.append("git pull")
+  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/data -m 'update item with {} by google colab'".format(value_id))
+  lines.append("git push origin main")
+
   vols.append(value_id)
 
 with open("main.sh", mode='w') as f:
