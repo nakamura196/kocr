@@ -94,34 +94,37 @@ for i in range(len(values)):
   lines.append("echo '■■■ unzip'")
   lines.append("python unzip.py {}".format(value_id))
 
+  # ここからconflictの可能性あり
   lines.append("git pull")
-
-
   lines.append("echo '■■■ calc similarity'")
 
   lines.append("python 001_create_map.py '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"]))
   lines.append("python 002_calc.py {}".format(value_id))
   lines.append("python 003_calc_line.py {}".format(value_id))
   
-  lines.append("python updateUpdate.py '{}' '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
-  
+  # ここからconflictの可能性あり
+  lines.append("git pull")
   lines.append("python updateItem.py {}".format(value_id))
   
-
+  # conflictの可能性高いため、最後
+  lines.append("git pull")
+  lines.append("python updateUpdate.py '{}' '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
   
   lines.append("echo '■■■ git'")
   lines.append("git config --global user.email 'na.kamura.1263@gmail.com'")
   lines.append("git config --global user.name '{}'".format(metadata["user"]))
   lines.append("git remote set-url origin https://nakamura196:{}@github.com/nakamura196/kocr.git".format(password))
   lines.append("git pull")
-  
-
 
   lines.append("git add /content/kocr/docs/runs/model_codh/output/{}".format(value_id))
-  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/update.json -m 'update item with {} by google colab'".format(value_id))
   lines.append("git commit /content/kocr/docs/runs/model_codh/output/{} -m 'add {} by google colab'".format(value_id, value_id))
   lines.append("git push origin main")
-  
+
+  # 後回し
+  lines.append("git pull")
+  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/data -m 'update item with {} by google colab'".format(value_id))
+  lines.append("git push origin main")
+
   vols.append(value_id)
 
 with open("main.sh", mode='w') as f:
