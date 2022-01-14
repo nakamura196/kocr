@@ -212,6 +212,33 @@
                 "work": "[源氏物語]. [27]"
             }
         ],
+        "nijl_100190213": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100190213/canvas/1055",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100190213/v4/0020/0020-60301/0020-60301-1054.tif/full/200,/0/default.jpg",
+                "line": "19",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100190213/manifest",
+                "name": "河内本（宮内庁書陵部）",
+                "page": 1055,
+                "type": "コマ",
+                "vol": 27,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100190213/canvas/1056",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100190213/v4/0020/0020-60301/0020-60301-1055.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100190213/manifest",
+                "name": "河内本（宮内庁書陵部）",
+                "page": 1056,
+                "type": "コマ",
+                "vol": 27,
+                "work": "源氏物語"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
