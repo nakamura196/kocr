@@ -118,7 +118,7 @@ for i in range(len(values)):
 
 
   lines.append("git add /content/kocr/docs/runs/model_codh/output/{}".format(value_id))
-  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/update.json -m 'update item with {} by google colab'".format(value_id))
+  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/status.json /content/kocr/docs/runs/model_codh/update.json -m 'update item with {} by google colab'".format(value_id))
   lines.append("git commit /content/kocr/docs/runs/model_codh/output/{} -m 'add {} by google colab'".format(value_id, value_id))
   lines.append("git push origin main")
   
