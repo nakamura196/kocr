@@ -96,7 +96,7 @@ for c in tqdm(range(len(canvases))):
     res = canvas["images"][0]["resource"]
 
     if "service" in res:
-        url = res["service"]["@id"] + "/full/1024,/0/default.jpg"
+        url = res["service"]["@id"] + "/full/full/0/default.jpg"
     else:
         url = res["@id"]
 
