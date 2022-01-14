@@ -79,33 +79,6 @@
                 "work": "[源氏物語] 54巻. [44]"
             }
         ],
-        "kagoshima": [
-            {
-                "attribution": "鹿児島大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/1748",
-                "curation": 1,
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-1747.tif/full/200,/0/default.jpg",
-                "line": "18",
-                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
-                "name": "玉里文庫（鹿児島大学所蔵）",
-                "page": 1748,
-                "type": "コマ",
-                "vol": 44,
-                "work": "源氏物語"
-            },
-            {
-                "attribution": "鹿児島大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/1749",
-                "curation": 1,
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-1748.tif/full/200,/0/default.jpg",
-                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
-                "name": "玉里文庫（鹿児島大学所蔵）",
-                "page": 1749,
-                "type": "コマ",
-                "vol": 44,
-                "work": "源氏物語"
-            }
-        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
@@ -168,7 +141,7 @@
                 "image": "https://www.dl.ndl.go.jp/api/iiif/1288319/F0000049/full/full/0/default.jpg",
                 "line": "19",
                 "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288319/manifest.json",
-                "name": "古活字版",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
                 "page": 49,
                 "type": "コマ",
                 "vol": 44,
@@ -180,7 +153,7 @@
                 "curation": 1,
                 "image": "https://www.dl.ndl.go.jp/api/iiif/1288319/F0000050/full/full/0/default.jpg",
                 "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288319/manifest.json",
-                "name": "古活字版",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
                 "page": 50,
                 "type": "コマ",
                 "vol": 44,
@@ -194,7 +167,7 @@
                 "curation": 1,
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01767.tif/full/200,/0/default.jpg",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
-                "name": "正徹本",
+                "name": "正徹本（国文学研究資料館所蔵）",
                 "page": 1768,
                 "type": "コマ",
                 "vol": 44,
@@ -207,7 +180,7 @@
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01768.tif/full/200,/0/default.jpg",
                 "line": "03",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
-                "name": "正徹本",
+                "name": "正徹本（国文学研究資料館所蔵）",
                 "page": 1769,
                 "type": "コマ",
                 "vol": 44,
