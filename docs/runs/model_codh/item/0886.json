@@ -104,33 +104,6 @@
                 "work": "源氏物語"
             }
         ],
-        "kyoto03": [
-            {
-                "attribution": "京都大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/1223",
-                "curation": 1,
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-1222.tif/full/200,/0/default.jpg",
-                "line": "19",
-                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
-                "name": "平松家本 11-2 （京都大学所蔵）",
-                "page": 1223,
-                "type": "コマ",
-                "vol": 29,
-                "work": "源氏物語"
-            },
-            {
-                "attribution": "京都大学",
-                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/1224",
-                "curation": 1,
-                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-1223.tif/full/200,/0/default.jpg",
-                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
-                "name": "平松家本 11-2 （京都大学所蔵）",
-                "page": 1224,
-                "type": "コマ",
-                "vol": 29,
-                "work": "源氏物語"
-            }
-        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
@@ -193,7 +166,7 @@
                 "image": "https://www.dl.ndl.go.jp/api/iiif/1288304/F0000003/full/full/0/default.jpg",
                 "line": "18",
                 "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288304/manifest.json",
-                "name": "古活字版",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
                 "page": 3,
                 "type": "コマ",
                 "vol": 29,
@@ -205,7 +178,7 @@
                 "curation": 1,
                 "image": "https://www.dl.ndl.go.jp/api/iiif/1288304/F0000004/full/full/0/default.jpg",
                 "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288304/manifest.json",
-                "name": "古活字版",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
                 "page": 4,
                 "type": "コマ",
                 "vol": 29,
@@ -247,7 +220,7 @@
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01064.tif/full/200,/0/default.jpg",
                 "line": "18",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
-                "name": "正徹本",
+                "name": "正徹本（国文学研究資料館所蔵）",
                 "page": 1065,
                 "type": "コマ",
                 "vol": 29,
@@ -259,7 +232,7 @@
                 "curation": 1,
                 "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_01065.tif/full/200,/0/default.jpg",
                 "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
-                "name": "正徹本",
+                "name": "正徹本（国文学研究資料館所蔵）",
                 "page": 1066,
                 "type": "コマ",
                 "vol": 29,
@@ -322,25 +295,25 @@
         ],
         "utokyo_l": [
             {
-                "attribution": "東京大学文学部",
+                "attribution": "東京大学",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/1033",
                 "curation": 1,
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-1032.tif/full/200,/0/default.jpg",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
-                "name": "文学部国文学研究室所蔵本",
+                "name": "東京大学文学部国文学研究室所蔵本",
                 "page": 1033,
                 "type": "コマ",
                 "vol": 29,
                 "work": "源氏物語"
             },
             {
-                "attribution": "東京大学文学部",
+                "attribution": "東京大学",
                 "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/1034",
                 "curation": 1,
                 "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-1033.tif/full/200,/0/default.jpg",
                 "line": "01",
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
-                "name": "文学部国文学研究室所蔵本",
+                "name": "東京大学文学部国文学研究室所蔵本",
                 "page": 1034,
                 "type": "コマ",
                 "vol": 29,
