@@ -77,6 +77,33 @@
                 "work": "[源氏物語] 54巻. [31]"
             }
         ],
+        "kagoshima": [
+            {
+                "attribution": "鹿児島大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/1081",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-1080.tif/full/200,/0/default.jpg",
+                "line": "19",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
+                "name": "玉里文庫（鹿児島大学所蔵）",
+                "page": 1081,
+                "type": "コマ",
+                "vol": 31,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "鹿児島大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/1082",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-1081.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
+                "name": "玉里文庫（鹿児島大学所蔵）",
+                "page": 1082,
+                "type": "コマ",
+                "vol": 31,
+                "work": "源氏物語"
+            }
+        ],
         "kyushu": [
             {
                 "attribution": "九州大学",
