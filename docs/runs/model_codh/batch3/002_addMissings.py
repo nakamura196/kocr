@@ -3,26 +3,22 @@ import glob
 import os
 import gzip
 
-# targets = ["kyushu", "kyushu_m", "nijl_s", "utokyo_l", "lc"]
-targets = ["tsukuba", "ocha"]
-
-file = "../metadata.json"
+file = "../data/bib.json"
 
 with open(file) as f:
     df = json.load(f)
 
-values = df[0]["value"]
-
 map = {}
-for obj in values:
-    map[obj["id"]] = {
+for id in df:
+    obj = df[id]
+    map[id] = {
         "name" : obj["name"],
         "attribution" : obj["attribution"]
     }
 
 arr = []
 
-for target in targets:
+for target in df:
     files = glob.glob("../output/{}-*".format(target))
 
     arr.append("echo '{}'".format(target))
