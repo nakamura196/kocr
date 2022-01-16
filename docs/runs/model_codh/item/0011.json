@@ -320,6 +320,33 @@
                 "work": "[源氏物語]. [1]"
             }
         ],
+        "ndl_2606154": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2543842/canvas/29",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2543842/F0000029/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2543842/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 29,
+                "type": "コマ",
+                "vol": 1,
+                "work": "平家物語 12巻. [1]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2543842/canvas/30",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2543842/F0000030/full/full/0/default.jpg",
+                "line": "15",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2543842/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 30,
+                "type": "コマ",
+                "vol": 1,
+                "work": "平家物語 12巻. [1]"
+            }
+        ],
         "nijl_100190213": [
             {
                 "attribution": "国文学研究資料館",
