@@ -357,6 +357,33 @@
                 "work": "平家物語 12巻. [2]"
             }
         ],
+        "ndl_2606187": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2550607/canvas/43",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2550607/F0000043/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2550607/manifest.json",
+                "name": "国立国会図書館本 02",
+                "page": 43,
+                "type": "コマ",
+                "vol": 2,
+                "work": "伊勢物語 2巻. [2]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2550607/canvas/44",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2550607/F0000044/full/full/0/default.jpg",
+                "line": "10",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2550607/manifest.json",
+                "name": "国立国会図書館本 02",
+                "page": 44,
+                "type": "コマ",
+                "vol": 2,
+                "work": "伊勢物語 2巻. [2]"
+            }
+        ],
         "ndl_2607117": [
             {
                 "attribution": "国立国会図書館",
