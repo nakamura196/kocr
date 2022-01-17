@@ -168,6 +168,33 @@
                 "work": "平家物語 11巻"
             }
         ],
+        "kyoto_rb00007189": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007189/page399510",
+                "curation": 1,
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007189/RB00007189_00008_0.ptif/full/200,/0/default.jpg",
+                "line": "11",
+                "manifest": "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007189/manifest.json",
+                "name": "京都大学本 01",
+                "page": 8,
+                "type": "コマ",
+                "vol": 1,
+                "work": "伊勢物語"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007189/page399511",
+                "curation": 1,
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007189/RB00007189_00009_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007189/manifest.json",
+                "name": "京都大学本 01",
+                "page": 9,
+                "type": "コマ",
+                "vol": 1,
+                "work": "伊勢物語"
+            }
+        ],
         "kyoto_rb00013174": [
             {
                 "attribution": "京都大学",
