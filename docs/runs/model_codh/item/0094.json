@@ -357,6 +357,33 @@
                 "work": "平家物語 12巻. [3]"
             }
         ],
+        "ndl_2606604": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544636/canvas/9",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544636/F0000009/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544636/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 9,
+                "type": "コマ",
+                "vol": 3,
+                "work": "大鏡 6巻. [3]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544636/canvas/10",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544636/F0000010/full/full/0/default.jpg",
+                "line": "16",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544636/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 10,
+                "type": "コマ",
+                "vol": 3,
+                "work": "大鏡 6巻. [3]"
+            }
+        ],
         "ndl_2608628": [
             {
                 "attribution": "国立国会図書館",
