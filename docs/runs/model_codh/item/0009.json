@@ -330,6 +330,33 @@
                 "work": "[源氏物語]. [1]"
             }
         ],
+        "ndl_1287033": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288256/canvas/9",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288256/F0000009/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288256/manifest.json",
+                "name": "国立国会図書館本 04",
+                "page": 9,
+                "type": "コマ",
+                "vol": 1,
+                "work": "伊勢物語. 〔上巻〕"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288256/canvas/10",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288256/F0000010/full/full/0/default.jpg",
+                "line": "04",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288256/manifest.json",
+                "name": "国立国会図書館本 04",
+                "page": 10,
+                "type": "コマ",
+                "vol": 1,
+                "work": "伊勢物語. 〔上巻〕"
+            }
+        ],
         "ndl_1288457": [
             {
                 "attribution": "国立国会図書館",
