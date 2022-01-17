@@ -266,6 +266,33 @@
                 "work": "栄花物語 40巻. [16]"
             }
         ],
+        "ndl_9893851": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/9893822/canvas/24",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/9893822/F0000024/full/full/0/default.jpg",
+                "line": "13",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/9893822/manifest.json",
+                "name": "国立国会図書館本 03",
+                "page": 24,
+                "type": "コマ",
+                "vol": 16,
+                "work": "栄花物語 40巻. 三十一、三十二"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/9893822/canvas/25",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/9893822/F0000025/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/9893822/manifest.json",
+                "name": "国立国会図書館本 03",
+                "page": 25,
+                "type": "コマ",
+                "vol": 16,
+                "work": "栄花物語 40巻. 三十一、三十二"
+            }
+        ],
         "nijl_100190213": [
             {
                 "attribution": "国文学研究資料館",
