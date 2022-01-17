@@ -438,6 +438,33 @@
                 "work": "伊勢物語 2巻. [2]"
             }
         ],
+        "ndl_2606604": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544635/canvas/7",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544635/F0000007/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544635/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 7,
+                "type": "コマ",
+                "vol": 2,
+                "work": "大鏡 6巻. [2]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544635/canvas/8",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544635/F0000008/full/full/0/default.jpg",
+                "line": "23",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544635/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 8,
+                "type": "コマ",
+                "vol": 2,
+                "work": "大鏡 6巻. [2]"
+            }
+        ],
         "ndl_2607117": [
             {
                 "attribution": "国立国会図書館",
