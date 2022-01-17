@@ -293,6 +293,33 @@
                 "work": "[源氏物語]. [11]"
             }
         ],
+        "ndl_2605559": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544483/canvas/10",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544483/F0000010/full/full/0/default.jpg",
+                "line": "02",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544483/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 10,
+                "type": "コマ",
+                "vol": 11,
+                "work": "栄花物語 40巻. [11]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2544483/canvas/11",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2544483/F0000011/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2544483/manifest.json",
+                "name": "国立国会図書館本 01",
+                "page": 11,
+                "type": "コマ",
+                "vol": 11,
+                "work": "栄花物語 40巻. [11]"
+            }
+        ],
         "nijl_100190213": [
             {
                 "attribution": "国文学研究資料館",
