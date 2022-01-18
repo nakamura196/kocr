@@ -708,6 +708,33 @@
                 "work": "大鏡"
             }
         ],
+        "nijl_200001904": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200001904/canvas/150",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200001904/v4/image/110_0093/00000002/00000150.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200001904/manifest",
+                "name": "国文学研究資料館本 02",
+                "page": 150,
+                "type": "コマ",
+                "vol": 1,
+                "work": "大鏡"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200001904/canvas/151",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200001904/v4/image/110_0093/00000002/00000151.tif/full/200,/0/default.jpg",
+                "line": "05",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200001904/manifest",
+                "name": "国文学研究資料館本 02",
+                "page": 151,
+                "type": "コマ",
+                "vol": 1,
+                "work": "大鏡"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
