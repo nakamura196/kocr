@@ -128,7 +128,11 @@ for c in tqdm(range(len(canvases))):
                     os.remove(tmp_path)
                 print(e)
 
-    img = Image.open(tmp_path)
+    try:
+        img = Image.open(tmp_path)
+    except Exception as e:
+        print(e)
+        continue
 
     w, h = img.size
 
