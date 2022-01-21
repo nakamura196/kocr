@@ -762,6 +762,33 @@
                 "work": "大鏡"
             }
         ],
+        "nijl_200004605": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200004605/canvas/18",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200004605/v4/image/110_0599/00000001/00000081.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200004605/manifest",
+                "name": "国文学研究資料館 02",
+                "page": 18,
+                "type": "コマ",
+                "vol": 1,
+                "work": "土佐日記"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200004605/canvas/19",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200004605/v4/image/110_0599/00000001/00000082.tif/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200004605/manifest",
+                "name": "国文学研究資料館 02",
+                "page": 19,
+                "type": "コマ",
+                "vol": 1,
+                "work": "土佐日記"
+            }
+        ],
         "nijl_200008371": [
             {
                 "attribution": "国文学研究資料館",
