@@ -931,6 +931,33 @@
                 "work": "大鏡"
             }
         ],
+        "nijl_200019765": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200019765/canvas/99",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200019765/v4/NIKI/096-0748/096-0748-00099.tif/full/200,/0/default.jpg",
+                "line": "15",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200019765/manifest",
+                "name": "国文学研究資料館本 03",
+                "page": 99,
+                "type": "コマ",
+                "vol": 1,
+                "work": "宇津保物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200019765/canvas/100",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200019765/v4/NIKI/096-0748/096-0748-00100.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200019765/manifest",
+                "name": "国文学研究資料館本 03",
+                "page": 100,
+                "type": "コマ",
+                "vol": 1,
+                "work": "宇津保物語"
+            }
+        ],
         "nijl_s": [
             {
                 "attribution": "国文学研究資料館",
