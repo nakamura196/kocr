@@ -8,6 +8,7 @@ parser = argparse.ArgumentParser(description='このプログラムの説明（�
 
 # 3. parser.add_argumentで受け取る引数を追加していく
 parser.add_argument('id')
+parser.add_argument('username')
 parser.add_argument('password')
 parser.add_argument('--reverse', "-r", default=False, type=bool)
 parser.add_argument('--collection', "-c", default="https://script.google.com/macros/s/AKfycbweFcBogWLgf7AyFboBOAnKxqeJr_cVQEk3PPODAEA5KBgr_rywx6IQm8ug5MS-A5F1/exec?sheet=all")
@@ -15,6 +16,7 @@ parser.add_argument('--collection', "-c", default="https://script.google.com/mac
 args = parser.parse_args()    # 4. 引数を解析
 
 id = args.id
+username = args.username
 password = args.password
 reverse = args.reverse
 
@@ -84,9 +86,9 @@ for i in range(len(values)):
   # lines.append("sh ocr.sh {} {} {} {}".format(value["manifest"], value_id, start, end))
   
   # git first
-  lines.append("git config --global user.email 'na.kamura.1263@gmail.com'")
+  lines.append("git config --global user.email 'test@example.org'")
   lines.append("git config --global user.name '{}'".format(metadata["user"]))
-  lines.append("git remote set-url origin https://nakamura196:{}@github.com/nakamura196/kocr.git".format(password))
+  lines.append("git remote set-url origin https://{}:{}@github.com/nakamura196/kocr.git".format(username, password))
   
 
   lines.append("echo '■■■ {}'".format(value_id))
