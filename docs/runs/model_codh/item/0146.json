@@ -484,6 +484,33 @@
                 "work": "栄花物語 40巻. [4]"
             }
         ],
+        "ndl_2608908": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2567322/canvas/2",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2567322/F0000002/full/full/0/default.jpg",
+                "line": "08",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2567322/manifest.json",
+                "name": "国立国会図書館本 05",
+                "page": 2,
+                "type": "コマ",
+                "vol": 4,
+                "work": "平家物語 12巻. [4]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2567322/canvas/3",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2567322/F0000003/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2567322/manifest.json",
+                "name": "国立国会図書館本 05",
+                "page": 3,
+                "type": "コマ",
+                "vol": 4,
+                "work": "平家物語 12巻. [4]"
+            }
+        ],
         "ndl_9893851": [
             {
                 "attribution": "国立国会図書館",
