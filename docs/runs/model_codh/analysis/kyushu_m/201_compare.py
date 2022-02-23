@@ -27,6 +27,12 @@ for file in files:
     if "line" in value:
       predicts[page]["line"] = value["canvas"]
 
+with open("bk_predicts.json", 'w') as outfile:
+    json.dump(predicts, outfile, ensure_ascii=False,
+    indent=4, sort_keys=True, separators=(',', ': '))
+
+err = []
+
 with open("data.json") as f:
   answers = json.load(f)
 
@@ -52,6 +58,13 @@ for vol in answers:
 
     if answer_canvas in predicts[page]["canvases"]:
       correct += 1
+    else:
+      err.append({
+        "vol" : vol,
+        "page" : page,
+        "canvases" : predicts[page]["canvases"],
+        "answer" : answer_canvas
+      })
 
     if answer_canvas == predicts[page]["line"]:
       correctLine += 1
@@ -69,3 +82,7 @@ rows.append(["sum", total_t, correct_t, correct_t / total_t * 100, correctLine_t
 df = pd.DataFrame(rows)
 
 df.to_csv('data.csv', header=False, index=False)
+
+with open("bk_predicts_err.json", 'w') as outfile:
+    json.dump(err, outfile, ensure_ascii=False,
+    indent=4, sort_keys=True, separators=(',', ': '))

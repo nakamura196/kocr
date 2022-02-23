@@ -117,6 +117,7 @@ for i in range(len(values)):
   lines.append("python 002_calc.py {}".format(value_id))
   lines.append("python 003_calc_line.py {}".format(value_id))
   
+  '''
   # ここからconflictの可能性あり
   lines.append("git pull")
   lines.append("python updateItem.py {}".format(value_id))
@@ -124,6 +125,7 @@ for i in range(len(values)):
   # conflictの可能性高いため、最後
   lines.append("git pull")
   lines.append("python updateUpdate.py '{}' '{}' '{}' '{}'".format(value_id, metadata["attribution"], metadata["name"], metadata["user"]))
+  '''
   
   lines.append("echo '■■■ git'")
   lines.append("git pull")

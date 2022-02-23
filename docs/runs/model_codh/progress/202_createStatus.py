@@ -2,6 +2,23 @@ import glob
 import json
 import pandas as pd
 
+def getTargets():
+  with open("gas.json") as f:
+    gas = json.load(f)
+
+    targets = []
+
+    for key in gas:
+      if key != "genji":
+        continue
+
+      values = gas[key][0]["value"]
+
+      for value in values:
+        targets.append(value["id"])
+
+    return targets
+
 with open("keyPageMap.json") as f:
   map = json.load(f)
 
@@ -16,7 +33,16 @@ with open("volPageMap.json") as f:
 
 map2 = {}
 
+targets = getTargets()
+
+print("targets", targets)
+
 for target in map:
+  if target not in targets:
+    continue
+
+  print("target", target)
+
   map2[target] = {}
 
   for i in range(54):
