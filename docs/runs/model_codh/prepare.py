@@ -135,9 +135,9 @@ for i in range(len(values)):
   lines.append("git push origin main")
 
   # 後回し
-  lines.append("git pull")
-  lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/data -m 'update item with {} by google colab'".format(value_id))
-  lines.append("git push origin main")
+  # lines.append("git pull")
+  # lines.append("git commit /content/kocr/docs/runs/model_codh/item /content/kocr/docs/runs/model_codh/data -m 'update item with {} by google colab'".format(value_id))
+  # lines.append("git push origin main")
 
   vols.append(value_id)
 
