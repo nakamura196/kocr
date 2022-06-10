@@ -222,6 +222,33 @@
                 "work": "〔源氏物語〕. まほろし"
             }
         ],
+        "ndl05": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585138/canvas/26",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585138/F0000026/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585138/manifest.json",
+                "name": "d",
+                "page": 26,
+                "type": "コマ",
+                "vol": 41,
+                "work": "[源氏物語]. [41]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585138/canvas/27",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585138/F0000027/full/full/0/default.jpg",
+                "line": "07",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585138/manifest.json",
+                "name": "d",
+                "page": 27,
+                "type": "コマ",
+                "vol": 41,
+                "work": "[源氏物語]. [41]"
+            }
+        ],
         "nijl_100182342": [
             {
                 "attribution": "国文学研究資料館",
@@ -379,6 +406,33 @@
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232535/manifest",
                 "name": "相愛大学図書館 所蔵本 4",
                 "page": 1928,
+                "type": "コマ",
+                "vol": 41,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100235297": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/1685",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-1684.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 1685,
+                "type": "コマ",
+                "vol": 41,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/1686",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-1685.tif/full/200,/0/default.jpg",
+                "line": "07",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 1686,
                 "type": "コマ",
                 "vol": 41,
                 "work": "源氏物語"

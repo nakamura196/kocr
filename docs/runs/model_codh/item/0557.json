@@ -281,6 +281,33 @@
                 "work": "栄花物語 40巻. 三十三、三十四"
             }
         ],
+        "nijl_100130618": [
+            {
+                "attribution": "宮内庁書陵部",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100130618/canvas/678",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100130618/v4/0020/0020-44501/0020-44501-0677.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100130618/manifest",
+                "name": "宮内庁書陵部所蔵本",
+                "page": 678,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "宮内庁書陵部",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100130618/canvas/679",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100130618/v4/0020/0020-44501/0020-44501-0678.tif/full/200,/0/default.jpg",
+                "line": "02",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100130618/manifest",
+                "name": "宮内庁書陵部所蔵本",
+                "page": 679,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            }
+        ],
         "nijl_100182342": [
             {
                 "attribution": "国文学研究資料館",
@@ -419,6 +446,33 @@
                 "work": "源氏物語"
             }
         ],
+        "nijl_100235297": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/709",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-0708.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 709,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/710",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-0709.tif/full/200,/0/default.jpg",
+                "line": "02",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 710,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            }
+        ],
         "nijl_100250108": [
             {
                 "attribution": "国文学研究資料館",
@@ -510,6 +564,33 @@
                 "manifest": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
                 "name": "200000993 国文学研究資料館所蔵本",
                 "page": 598,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200003803": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/582",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00582.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200003803/manifest",
+                "name": "nijl_200003803",
+                "page": 582,
+                "type": "コマ",
+                "vol": 17,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200003803/canvas/583",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200003803/v4/NIIP/SA4-0026/SA4-0026-00583.tif/full/200,/0/default.jpg",
+                "line": "02",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200003803/manifest",
+                "name": "nijl_200003803",
+                "page": 583,
                 "type": "コマ",
                 "vol": 17,
                 "work": "源氏物語"

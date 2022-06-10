@@ -1,0 +1,802 @@
+{
+    "canvas": "https://www.dl.ndl.go.jp/api/iiif/3437690/canvas/35",
+    "label": [
+        "のをなと心おこりせらるうちの御けしきあることまことにおほしたゝむにかく",
+        "のみ物うくおほえはいかゝすへからんおもたゝしきことにはありともいかゝは",
+        "あらむいかにそこきみにいとよく似給へらん時にうれしからむかしと思ひよら",
+        "るゝはさすかにもてはなるましき心なめりかしれいのねさめかちなるつれ〱",
+        "なれはあせちの君とて人よりはすこし思ひまし給へるかつほねにおはしてその",
+        "よはあかし給つあけすきたらむを人のとかむへきにもあらぬにくるしけにいそ",
+        "きおき給をたゝならす思ふへかめり",
+        "うちわたしよにゆるしなきせきかはをみなれそめけん名こそおしけれいと",
+        "おしけれは",
+        "ふかゝらすうへはみゆれとせきかはのしたのかよひはたゆる物かはふかし",
+        "との給はんにてたにたのもしけなきをこのうへのあさゝはいとゝこゝろやまし",
+        "くおほゆらむかしつま戸をしあけてまことはこのそらみ給へいかてかこれをし",
+        "らすかほにてはあかさんとよえんなる人まねにてはあらていとゝあかしかたく",
+        "なり行よな〱のねさめにはこの世かのよまてなむ思ひやられてあはれなるな"
+    ],
+    "manifest": "https://www.dl.ndl.go.jp/api/iiif/3437690/manifest.json",
+    "next": "1733",
+    "page": 1732,
+    "prev": "1731",
+    "related": {
+        "kyoto_rb00007030": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page541098",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/47/RB00007030_02250_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/49.json",
+                "name": "中院文庫本",
+                "page": 46,
+                "type": "コマ",
+                "work": "宿木"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page541099",
+                "image": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/47/RB00007030_02251_0.ptif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto02/49.json",
+                "name": "中院文庫本",
+                "page": 47,
+                "type": "コマ",
+                "work": "宿木"
+            }
+        ],
+        "kyushu_2324-411193": [
+            {
+                "attribution": "九州大学",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411258/canvas/p67",
+                "curation": 1,
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411258/371980.tiff/full/200,/0/default.jpg",
+                "line": "06",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/49/manifest.json",
+                "name": "九州大学文学部 所蔵 源氏物語 古活字版",
+                "page": 67,
+                "type": "コマ",
+                "vol": 49,
+                "work": "九大本（古活字版）"
+            },
+            {
+                "attribution": "九州大学",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411258/canvas/p68",
+                "curation": 1,
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411258/371981.tiff/full/200,/0/default.jpg",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E5%8F%A4%E6%B4%BB%E5%AD%97%E7%89%88%EF%BC%89/49/manifest.json",
+                "name": "九州大学文学部 所蔵 源氏物語 古活字版",
+                "page": 68,
+                "type": "コマ",
+                "vol": 49,
+                "work": "九大本（古活字版）"
+            }
+        ],
+        "kyushu_2324-411265": [
+            {
+                "attribution": "九州大学",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411313/canvas/p61",
+                "curation": 1,
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411313/375852.tiff/full/200,/0/default.jpg",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/49/manifest.json",
+                "name": "個人蔵 源氏物語 無跋無刊記整版本",
+                "page": 61,
+                "type": "コマ",
+                "vol": 49,
+                "work": "九大本（無跋無刊記整版本）"
+            },
+            {
+                "attribution": "九州大学",
+                "canvas": "https://catalog.lib.kyushu-u.ac.jp/image/411313/canvas/p62",
+                "curation": 1,
+                "image": "https://catalog.lib.kyushu-u.ac.jp/image/iiif/820/411313/375853.tiff/full/200,/0/default.jpg",
+                "line": "02",
+                "manifest": "https://genji.dl.itc.u-tokyo.ac.jp/data/iiif/org/%E4%B9%9D%E5%A4%A7%E6%9C%AC%EF%BC%88%E7%84%A1%E8%B7%8B%E7%84%A1%E5%88%8A%E8%A8%98%E6%95%B4%E7%89%88%E6%9C%AC%EF%BC%89/49/manifest.json",
+                "name": "個人蔵 源氏物語 無跋無刊記整版本",
+                "page": 62,
+                "type": "コマ",
+                "vol": 49,
+                "work": "九大本（無跋無刊記整版本）"
+            }
+        ],
+        "ndl_1288440": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288323/canvas/40",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288323/F0000040/full/full/0/default.jpg",
+                "line": "20",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288323/manifest.json",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
+                "page": 40,
+                "type": "コマ",
+                "vol": 49,
+                "work": "〔源氏物語〕. やとりき"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/1288323/canvas/41",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/1288323/F0000041/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/1288323/manifest.json",
+                "name": "慶長古活字版（国立国会図書館所蔵）",
+                "page": 41,
+                "type": "コマ",
+                "vol": 49,
+                "work": "〔源氏物語〕. やとりき"
+            }
+        ],
+        "ndl_2585098": [
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585146/canvas/53",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585146/F0000053/full/full/0/default.jpg",
+                "line": "18",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585146/manifest.json",
+                "name": "d",
+                "page": 53,
+                "type": "コマ",
+                "vol": 49,
+                "work": "[源氏物語]. [49]"
+            },
+            {
+                "attribution": "国立国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585146/canvas/54",
+                "curation": 1,
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585146/F0000054/full/full/0/default.jpg",
+                "manifest": "https://www.dl.ndl.go.jp/api/iiif/2585146/manifest.json",
+                "name": "d",
+                "page": 54,
+                "type": "コマ",
+                "vol": 49,
+                "work": "[源氏物語]. [49]"
+            }
+        ],
+        "ndl_2610583": [
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010919/canvas/35",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010919/F0000035/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/49.json",
+                "name": "元和9年古活字版",
+                "page": 35,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [49]"
+            },
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/3010919/canvas/36",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/3010919/F0000036/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl04/49.json",
+                "name": "元和9年古活字版",
+                "page": 36,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. [49]"
+            }
+        ],
+        "ndl_2610937": [
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585146/canvas/53",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585146/F0000053/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/49.json",
+                "name": "近世前期写本",
+                "page": 53,
+                "type": "コマ",
+                "work": "[源氏物語]. [49]"
+            },
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/2585146/canvas/54",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/2585146/F0000054/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/49.json",
+                "name": "近世前期写本",
+                "page": 54,
+                "type": "コマ",
+                "work": "[源氏物語]. [49]"
+            }
+        ],
+        "ndl_8943312": [
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943223/canvas/34",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943223/F0000034/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/49.json",
+                "name": "伝嵯峨本",
+                "page": 34,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 49"
+            },
+            {
+                "attribution": "国会図書館",
+                "canvas": "https://www.dl.ndl.go.jp/api/iiif/8943223/canvas/35",
+                "image": "https://www.dl.ndl.go.jp/api/iiif/8943223/F0000035/full/full/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl02/49.json",
+                "name": "伝嵯峨本",
+                "page": 35,
+                "type": "コマ",
+                "work": "[源氏物語] 54巻. 49"
+            }
+        ],
+        "nijl_100050894": [
+            {
+                "attribution": "鹿児島大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/2017",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-2016.tif/full/200,/0/default.jpg",
+                "line": "13",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
+                "name": "玉里文庫（鹿児島大学所蔵）",
+                "page": 2017,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "鹿児島大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100050894/canvas/2018",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100050894/v4/0091/0091-027802/0091-027802-2017.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100050894/manifest",
+                "name": "玉里文庫（鹿児島大学所蔵）",
+                "page": 2018,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100153620": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/2365",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-2364.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/49.json",
+                "name": "平松家本",
+                "page": 46,
+                "type": "コマ",
+                "work": "宿木"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153620/canvas/2366",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153620/v4/0327/0327-000608/0327-000608-2365.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kyoto01/49.json",
+                "name": "平松家本",
+                "page": 47,
+                "type": "コマ",
+                "work": "宿木"
+            }
+        ],
+        "nijl_100153621": [
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/2379",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-2378.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
+                "name": "平松家本 11-2 （京都大学所蔵）",
+                "page": 2379,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "京都大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100153621/canvas/2380",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100153621/v4/0327/0327-001102/0327-001102-2379.tif/full/200,/0/default.jpg",
+                "line": "03",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest",
+                "name": "平松家本 11-2 （京都大学所蔵）",
+                "page": 2380,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100178296": [
+            {
+                "attribution": "筑波大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/1958",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-1957.tif/full/200,/0/default.jpg",
+                "line": "09",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100178296/manifest",
+                "name": "筑波大学所蔵本",
+                "page": 1958,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "筑波大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100178296/canvas/1959",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100178296/v4/0006/0006-024802/0006-024802-1958.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100178296/manifest",
+                "name": "筑波大学所蔵本",
+                "page": 1959,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100182342": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100182342/canvas/1947",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100182342/v4/0358/0358-00501/0358-00501-1946.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100182342/manifest",
+                "name": "肥前松平文庫",
+                "page": 1947,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100182342/canvas/1948",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100182342/v4/0358/0358-00501/0358-00501-1947.tif/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100182342/manifest",
+                "name": "肥前松平文庫",
+                "page": 1948,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100190213": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100190213/canvas/2324",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100190213/v4/0020/0020-60301/0020-60301-2323.tif/full/200,/0/default.jpg",
+                "line": "17",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100190213/manifest",
+                "name": "河内本（宮内庁書陵部）",
+                "page": 2324,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100190213/canvas/2325",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100190213/v4/0020/0020-60301/0020-60301-2324.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100190213/manifest",
+                "name": "河内本（宮内庁書陵部）",
+                "page": 2325,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100232449": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232449/canvas/1812",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232449/v4/0397/0397-002101/0397-002101-0154.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232449/manifest",
+                "name": "相愛大学図書館 所蔵本 1",
+                "page": 1812,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232449/canvas/1813",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232449/v4/0397/0397-002101/0397-002101-0155.tif/full/200,/0/default.jpg",
+                "line": "05",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232449/manifest",
+                "name": "相愛大学図書館 所蔵本 1",
+                "page": 1813,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100232477": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232477/canvas/2243",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232477/v4/0397/0397-003001/0397-003001-0473.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232477/manifest",
+                "name": "相愛大学図書館 所蔵本 2",
+                "page": 2243,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232477/canvas/2244",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232477/v4/0397/0397-003001/0397-003001-0474.tif/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232477/manifest",
+                "name": "相愛大学図書館 所蔵本 2",
+                "page": 2244,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100232530": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232530/canvas/1474",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232530/v4/0397/0397-004701/0397-004701-0385.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232530/manifest",
+                "name": "相愛大学図書館 所蔵本 3",
+                "page": 1474,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232530/canvas/1475",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232530/v4/0397/0397-004701/0397-004701-0386.tif/full/200,/0/default.jpg",
+                "line": "14",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232530/manifest",
+                "name": "相愛大学図書館 所蔵本 3",
+                "page": 1475,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100232535": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232535/canvas/2326",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232535/v4/0397/0397-005301/0397-005301-0047.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232535/manifest",
+                "name": "相愛大学図書館 所蔵本 4",
+                "page": 2326,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100232535/canvas/2327",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100232535/v4/0397/0397-005301/0397-005301-0048.tif/full/200,/0/default.jpg",
+                "line": "05",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100232535/manifest",
+                "name": "相愛大学図書館 所蔵本 4",
+                "page": 2327,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100235297": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/2035",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-2034.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 2035,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100135297/canvas/2036",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100135297/v4/0257/0257-030702/0257-030702-2035.tif/full/200,/0/default.jpg",
+                "line": "05",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100135297/manifest",
+                "name": "大和文華館所蔵本",
+                "page": 2036,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100260423": [
+            {
+                "attribution": "お茶の水女子大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100260423/canvas/2116",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100260423/v4/OCHA/OCHA-00923/OCHA-00923-02115.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100260423/manifest",
+                "name": "お茶の水女子大学所蔵本",
+                "page": 2116,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "お茶の水女子大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100260423/canvas/2117",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100260423/v4/OCHA/OCHA-00923/OCHA-00923-02116.tif/full/200,/0/default.jpg",
+                "line": "06",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100260423/manifest",
+                "name": "お茶の水女子大学所蔵本",
+                "page": 2117,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100266039": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100266039/canvas/1957",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100266039/v4/JWUL/JWUL-00001/JWUL-00001-01956.tif/full/200,/0/default.jpg",
+                "line": "19",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100266039/manifest",
+                "name": "実践女子大学・実践女子大学短期大学部図書館 所蔵本",
+                "page": 1957,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100266039/canvas/1958",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100266039/v4/JWUL/JWUL-00001/JWUL-00001-01957.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100266039/manifest",
+                "name": "実践女子大学・実践女子大学短期大学部図書館 所蔵本",
+                "page": 1958,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_100292059": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100292059/canvas/1680",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100292059/v4/HMGC/HMGC-00060/HMGC-00060-1679.tif/full/200,/0/default.jpg",
+                "line": "17",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100292059/manifest",
+                "name": "浜口博章",
+                "page": 1680,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100292059/canvas/1681",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100292059/v4/HMGC/HMGC-00060/HMGC-00060-1680.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100292059/manifest",
+                "name": "浜口博章",
+                "page": 1681,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200000993": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200000993/canvas/1869",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200000993/v4/image/110_0091/00000001/00000293.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
+                "name": "200000993 国文学研究資料館所蔵本",
+                "page": 1869,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200000993/canvas/1870",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200000993/v4/image/110_0091/00000001/00000294.tif/full/200,/0/default.jpg",
+                "line": "02",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200000993/manifest",
+                "name": "200000993 国文学研究資料館所蔵本",
+                "page": 1870,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200010454": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/02033",
+                "curation": 1,
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_02033.tif/full/200,/0/default.jpg",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "name": "正徹本（国文学研究資料館所蔵）",
+                "page": 2034,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "http://codh.rois.ac.jp/pmjt/iiif/200010454/canvas/02034",
+                "curation": 1,
+                "image": "http://codh.rois.ac.jp/pmjt/iiif/200010454/200010454_02034.tif/full/200,/0/default.jpg",
+                "line": "01",
+                "manifest": "http://codh.rois.ac.jp/pmjt/book/200010454/manifest.json",
+                "name": "正徹本（国文学研究資料館所蔵）",
+                "page": 2035,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200010455": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200010455/canvas/1977",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200010455/v4/NIIP/SA4-0074/SA4-0074-01972.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200010455/manifest",
+                "name": "国文研 所蔵本3",
+                "page": 1977,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200010455/canvas/1978",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200010455/v4/NIIP/SA4-0074/SA4-0074-01973.tif/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200010455/manifest",
+                "name": "国文研 所蔵本3",
+                "page": 1978,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200016470": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200016470/canvas/2333",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200016470/v4/NIIP/SA4-0098/SA4-0098-02333.tif/full/200,/0/default.jpg",
+                "line": "10",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200016470/manifest",
+                "name": "国文研 所蔵本2",
+                "page": 2333,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200016470/canvas/2334",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200016470/v4/NIIP/SA4-0098/SA4-0098-02334.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200016470/manifest",
+                "name": "国文研 所蔵本2",
+                "page": 2334,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200017428": [
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200017428/canvas/1704",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200017428/v4/NIIP/SA4-0112/SA4-0112-01704.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200017428/manifest",
+                "name": "国文研 所蔵本1",
+                "page": 1704,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "国文学研究資料館",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200017428/canvas/1705",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200017428/v4/NIIP/SA4-0112/SA4-0112-01705.tif/full/200,/0/default.jpg",
+                "line": "13",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/200017428/manifest",
+                "name": "国文研 所蔵本1",
+                "page": 1705,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ],
+        "nijl_200018258": [
+            {
+                "attribution": "国文研",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/1933",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-01934.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/49.json",
+                "name": "『湖月抄』鵜飼文庫",
+                "page": 1933,
+                "type": "コマ",
+                "work": "宿木"
+            },
+            {
+                "attribution": "国文研",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/1934",
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-01935.tif/full/200,/0/default.jpg",
+                "manifest": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/49.json",
+                "name": "『湖月抄』鵜飼文庫",
+                "page": 1934,
+                "type": "コマ",
+                "work": "宿木"
+            }
+        ],
+        "utokyo": [
+            {
+                "attribution": "東京大学総合図書館",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5c412f9d-0220-8f63-64ae-ca93a2328b20/canvas/p35",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/49/49_0035.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/49.json",
+                "name": "東京大学本",
+                "page": 35,
+                "type": "コマ",
+                "work": "寄生"
+            },
+            {
+                "attribution": "東京大学総合図書館",
+                "canvas": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/5c412f9d-0220-8f63-64ae-ca93a2328b20/canvas/p36",
+                "image": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/genji/TIFF/A00_6587/49/49_0036.tif/full/200,200/0/default.jpg",
+                "manifest": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/49.json",
+                "name": "東京大学本",
+                "page": 36,
+                "type": "コマ",
+                "work": "寄生"
+            }
+        ],
+        "utokyo_l": [
+            {
+                "attribution": "東京大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/1995",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-1994.tif/full/200,/0/default.jpg",
+                "line": "17",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "東京大学文学部国文学研究室所蔵本",
+                "page": 1995,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            },
+            {
+                "attribution": "東京大学",
+                "canvas": "https://kotenseki.nijl.ac.jp/biblio/100018286/canvas/1996",
+                "curation": 1,
+                "image": "https://kotenseki.nijl.ac.jp/api/iiif/100018286/v4/0004/0004-004702/0004-004702-1995.tif/full/200,/0/default.jpg",
+                "manifest": "https://kotenseki.nijl.ac.jp/biblio/100018286/manifest",
+                "name": "東京大学文学部国文学研究室所蔵本",
+                "page": 1996,
+                "type": "コマ",
+                "vol": 49,
+                "work": "源氏物語"
+            }
+        ]
+    },
+    "type": "ページ",
+    "vol_str": "49 宿木"
+}

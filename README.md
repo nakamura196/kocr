@@ -73,3 +73,7 @@ docker run -p 5000:5000 yolov5-flask:latest
 - https://github.com/ultralytics/yolov5
 - https://github.com/jzhang533/yolov5-flask (this repo was forked from here)
 - https://github.com/avinassh/pytorch-flask-api-heroku
+
+## OCRのローカルサーバ
+
+npx http-server -p 8000 --cors

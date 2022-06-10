@@ -20,7 +20,7 @@ def getTargets():
     return targets
 
 with open("keyPageMap.json") as f:
-  map = json.load(f)
+  keyPageMap = json.load(f)
 
 with open("volPageMap.json") as f:
   data = json.load(f)
@@ -37,7 +37,7 @@ targets = getTargets()
 
 print("targets", targets)
 
-for target in map:
+for target in keyPageMap:
   if target not in targets:
     continue
 
@@ -48,7 +48,7 @@ for target in map:
   for i in range(54):
     map2[target][str(i+1).zfill(2)] = 0
 
-  for page in map[target]:
+  for page in keyPageMap[target]:
     vol = pageVolMap[page]
     
     map2[target][str(vol).zfill(2)] = 1

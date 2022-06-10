@@ -17,7 +17,11 @@ for obj in df:
     values = obj["value"]
 
     for value in values:
-      map[value["id"]] = value
+      value2 = {}
+      for key in value:
+        if key[0] != "_":
+          value2[key] = value[key]
+      map[value["id"]] = value2
 
 with open(path, 'w') as outfile:
     json.dump(map, outfile, ensure_ascii=False,

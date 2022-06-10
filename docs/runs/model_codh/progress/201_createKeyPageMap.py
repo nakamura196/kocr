@@ -4,13 +4,21 @@ import pandas as pd
 
 map = {}
 
-files = glob.glob("../item/*.json")
+files = glob.glob("../item2/*.json")
+
+files = sorted(files)
 
 for file in files:
   page = int(file.split("/")[-1].split(".")[0])
 
+  # print("page", page)
+
   with open(file) as f:
     df = json.load(f)
+
+  if page == 5:
+    import pprint
+    pprint.pprint(df)
 
   related = df["related"]
 
