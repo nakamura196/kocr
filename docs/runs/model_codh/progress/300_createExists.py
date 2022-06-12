@@ -52,6 +52,13 @@ for obj in tqdm(df):
         if end != "" and int(end) == -1:
           map[id][str(value["vol"]).zfill(2)] = -1
 
+# 手動
+lc_map = map["lc_2008427768"]
+
+for key in lc_map:
+  lc_map[key] = 10
+
+
 with open(path, 'w') as outfile:
     json.dump(map, outfile, ensure_ascii=False,
     indent=4, sort_keys=True, separators=(',', ': '))
