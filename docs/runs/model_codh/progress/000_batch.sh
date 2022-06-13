@@ -7,6 +7,10 @@ python 001_download_gas.py
 cd ../batch_2022
 python 001_create_item2.py
 
+python 002_create_batches.py
+
+sh 200_batches.sh
+
 cd ../progress
 
 # ../item/*.jsonに基づき、keyPageMap.jsonを作成する

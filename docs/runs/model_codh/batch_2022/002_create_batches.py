@@ -28,7 +28,7 @@ lines = []
 for obj in values:
     sheet_id = obj["id"]
 
-    lines.append('''echo '''.format(sheet_id))
+    # lines.append('''echo '''.format(sheet_id))
 
     attribution = obj["attribution"]
 
@@ -39,11 +39,11 @@ for obj in values:
 
     arr = map[sheet_id]
 
-    print(sheet_id, len(arr))
+    # print(sheet_id, len(arr))
 
     for item in arr:
         id = item["id"]
-        print(id, attribution, name)
+        # print(id, attribution, name)
 
         vol = id.split("-")[1]
 
